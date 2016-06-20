@@ -52,70 +52,34 @@ Wordpress, Por2folios, Social Media, PPIV.
 % and "STE" in caps to complete the first word.
 \IEEEPARstart{E}{ste} projecto foi encomendado para a cadeira de Portfolio Pessoal IV e tem como objectivo desenvolver, documentar e relatar a plataforma que irá receber todos os relatório, trabalhos e projectos dos vários anos em que a cadeira foi e é lecionada. Como tal foi feito um levantamento de requisitos, várias reuniões com o Professor Rui Cruz que nos indicou não só a informação que precisávamos, como também quais os critérios na análise e levantamento dos requisitos.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Scoring Rubrics}
+
+\section{O projecto}
 The table of Scoring Rubrics (at the bottom of the first page of each Report) depends on the Report Type (ACTIVITY or LEARNINGS). Therefore, you must pay attention to have the correct table displayed when you select your Report Type in lines 21 or 22 of the \textbf{PP\_Report\_Preamble.tex} document. Failure to do so means that your Report WILL NOT BE ACCEPTED for evaluation.
 
-The scoring Rubrics correspond to the evaluation of different aspects of your Report, and have the following meanings:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Implementação }
+\subsection{ CENAS } 
 
-\begin{description}
-\item[ACTIVITY table]  \hfill \\
-This table contains the rubrics that evaluate the Activity Report as an objective, factual document, describing the purpose of the activity, the tasks performed, the execution environment, the constraints, results etc. 
-\begin{itemize}
-\item[\textbf{Intro}] This rubric evaluates how you introduce the Activity described in the document. A competent introduction should describe at least the significance of the topic and the purposes of the work. 
-\item[\textbf{Object}] This rubric evaluates how you describe the Objectives of the work. You should provide clear and concise description of the procedures/tasks that were performed.
-\item[\textbf{Plan}] This rubric evaluates how you planned/prepared your work.
-\item[\textbf{Exec}] This rubrics will evaluate how you describe all the phases/steps/task of the work/activity, and will consider items such as when, where, how, what, with/for whom, duration, etc.
-\item[\textbf{Result}] This rubric will evaluate how you describe the results of the work performed. You should report your results neutrally.
-\end{itemize}
-\item[LEARNINGS table] \hfill \\
-This table contains the rubrics that evaluate the learning experience in terms of non-technical (soft) skills acquired or perfected.
-\begin{itemize}
-\item[\textbf{Intro}] This rubric evaluates how you introduce the subject (your own experience) to be described. A competent introduction should describe at least the significance of what you have done and what you have learned from doing it.
-\item[\textbf{Motiv}] This rubric evaluates how you describe your motivation for choosing and performing the activity.
-\item[\textbf{Skills}] This rubric evaluates all the soft-skills described as perfected and/or acquired during the execution of the activity.
-\item[\textbf{Reflect}] This rubric evaluates your analysis over the learning experience and how well you describe it.
-\item[\textbf{Sugg}] This rubric will evaluate your Comments regarding the activity performed, as well as your Recommendations or Suggestions for improvements or variations.
-\end{itemize}
-\item[DOCUMENT table] \hfill \\
-This table contains the rubrics that evaluate the document form and structure.
-\begin{itemize}
-\item[\textbf{Struct}] Evaluation the structure of the document in terms of contents.
-\item[\textbf{Ortog}] Evaluates the quality of the orthography (spelling, appropriateness, etc.).
-\item[\textbf{Gram}] Evaluates the grammar construction.
-\item[\textbf{Form}] Evaluates the format conformance of the document in terms of components.
-\item[\textbf{Abstr}] Evaluates the quality of the abstract, if it is really a summary of the document. The abstract is what is initially previewed by readership to determine if the remainder of the document is worth reading. 
-\item[\textbf{Concl}] This rubric evaluates how concise and analytic you are on drawing conclusions from what you have done. The Conclusion is comprised of some final, summative statements that reflect the flow and outcomes of the subject described in the document. 
-\end{itemize}
-\item[PENALTY table] \hfill \\
-This table contains the rubrics related with the Titles of the document, file names and identification(s) of  author(s).
-\begin{itemize}
-\item[\textbf{Titles}] Evaluates if the Main Title, subtitle, abridged title, etc. are adequate.
-\item[\textbf{Files}] Evaluates conformation of the file names of the submitted documents with the rules.
-\item[\textbf{IDs}] Evaluates the correct information related with the identification of author(s), submission dates, etc.
-\end{itemize}
-\end{description}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Features}
-This section describes some of the common features used on writing documents with \LaTeX.
-\subsection{Abbreviations and Acronyms} 
-This template is ready to define abbreviations and acronyms the first time they are used in the text, even after they have been defined in the abstract.
-For the students of \ac{IST} it becomes very easy to make references to the School just using the respective acronym. The first time it was used, in previous paragraph, the name of \ac{IST} was presented in extended form, but now only the acronym was typed.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Equations}
-Writing equations or math expressions, for example $\alpha + \beta = \chi$, is also very easy.
-
-Another method to write math expressions or equations is the following construct, normally numbered automatically:
-\begin{equation}
-\delta + \epsilon = \theta
-\label{eq2}
-\end{equation}
-
-With this construct the reference in text to Equation~\ref{eq2} is straightforward.
+\section{Parte técnica}
+Para a implementação da plataforma por2folios, foi-nos fornecida uma máquina com endereço fixo, alojada na area das 
+VM (Virtual Machine) do Técnico. Esta máquina, quando nos foi entregue, foi fornecida com acessos de root, em que não nos foi 
+imposta nenhuma restrição sobre a utilização da mesma.
+Falamos de uma máquina com 1GB de memória real, 2GB de memória virtual, e 37GB de alojamento.
+Esta máquina trazia uma distribuição Ubuntu, algo antiga.
+Para tornarmos a máquina acessível, primeiramente actualizamos a distribuição para uma mais recente (sendo ubuntu, quanto mais recente, mais fiabilidade, menos falhas de segurança)
+Após análise do próximo passo a tomar, e como estávamos a trabalhar com uma virtual machine, optamos por instalar um programa para a gestão do servidor a partir da internet. Recorremos ao WEBMIN, em que acedemos pela porta 10000, e conseguimos fazer a gestão do servidor de forma eficiente, tornando a manutenção do servidor user friendly.
+Tendo já um acesso, uma porta para a administração do servidor, discutimos a melhor plataforma para o desenvolvimento da plataforma Por2folios. Após tentarmos explorar diversos Content Management Systems (CMS), concluímos que o que traria mais proveito seria o sistema WordPress. Para a instalação deste sistema (e de qualquer um deles, na realidade), tivemos que instalar um servidor HTTP. De novo, para facilitar o processo de manutenção, recorremos a uma ferramenta que já está bem documentada, e tem muito “support” na internet. Falamos do servidor Apache (Apache HTTP Server). Este, gratuito, corre em sistemas windows e unix, e tem a versão 2.4 como sendo a ultima estável lançada.
+Para alojar também todo o conteúdo, e permitir uma persistência associada ao wordpress, tivemos que implementar também uma base de dados MySQL, associando as colunas e linhas ás várias funcionalidades disponíveis no WordPress.
+Tendo a base instalada, lançamos uma versão Alpha da plataforma, testamos as funcionalidades, e já conseguimos fazer algumas operações básicas na plataforma.
+Entretanto, e para garantir segurança, foi adicionado o método de autenticação por SSH ao servidor por SSH-KEYS. Este, prova ser muito mais fiável, ao ter a password pública do utilizador associada á conta do utilizador no servidor. Contudo, apesar de ser falível, para facilitar o processo de manutenção para o futuro, continuamos a ter o login com utilizador e palavra passe, perdemos segurança (muita), mas não dificultamos a vida aos nossos futuros utilizadores.
+As chaves SSH correm paralelamente ao Webmin.
+Neste momento, a plataforma está em fase beta, da sua primeira iteração. Esperamos, no decorrer do próximo semestre, continuar a iterar sobre esta plataforma, para lançarmos mais funcionalidades nesta plataforma.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Figures}
-Placing figures is also very easy, as for example the following Fig.~\ref{fig_sim}:
+ADICINAR IMAGEM ? 
+\ref{fig_sim}:
 
 \begin{figure}[htb]
 \centering
@@ -124,46 +88,12 @@ Placing figures is also very easy, as for example the following Fig.~\ref{fig_si
 \label{fig_sim}
 \end{figure}
 
-With this construct the reference in text to Figure~\ref{fig_sim} is straightforward
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Another Section}
-Write here Some text. Note that some special characters need an escape sequence. For example, to write a \% sign you need to escape the character with a backslash (\textbackslash\%).
-Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
-Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia. 
 
-Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
-Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia. 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Now a Subsection}
-Write here Some text. This is a bibliographic citation \cite{RFC_INTSERV}.
-Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia.
-
-Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
-Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia. 
-\subsection{Yes Another Subsection}
-Write here Some text. This is another bibliographic citation \cite{lamport:latex}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
-Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia. 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui \cite{lamport:latex}.
-
-Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{\IfLanguageName{english}{Conclusion}{Conclusão}}
 The conclusions. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
 
 Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% use section* for acknowledgement
-\ifCLASSOPTIONcompsoc
-  % The Computer Society usually uses the plural form
-  \section*{\IfLanguageName{english}{Acknowledgments}{Agradecimentos}} % Acknowledgments
-\else
-  % regular IEEE prefers the singular form
-  \section*{Acknowledgment}
-\fi
-
-The authors would like to thank...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
-Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % references section
 \bibliographystyle{IEEEtran}
@@ -173,7 +103,7 @@ Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida 
 % biography section
 % 
 \begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{bruno.png}}]{Bruno Cardoso}
-Here I am. I am pursuing my Engineering studies at \ac{IST}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Here I am. I am pursuing my Engineering studies at \ac{IST}. Starting my masters in Interaction and Visualization, and also on business systems. On my "spare" time, I am also developing a project at INESC-ID, at VIMMI.
 \end{IEEEbiography}
 \begin{IEEEbiography}
 [{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{francisco.png}}]{Francisco Maria Calisto}
@@ -187,16 +117,7 @@ Here I am. I am pursuing my Engineering studies at \ac{IST}. Lorem ipsum dolor s
 \newpage
 \onecolumn
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% APPENDIX WITH STATEMENT OF EXECUTION IS ONLY
-% MANDATORY FOR SELF_INITIATIVE ACTIVITIES
-\appendix[Statements of Execution]
-STATEMENT OF EXECUTION IS ONLY MANDATORY FOR SELF-INITIATIVE ACTIVITIES.
 
-Place here your Statements of Execution of the Activity, using a PDF document.
-\begin{figure*}[h]
-\centering
-\includegraphics[width=0.8\textwidth]{specimen.pdf}
-\end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % *** DEFINITION OF ACRONYMS ***
 	\acrodef{CPU}{Central Processing Unit}
