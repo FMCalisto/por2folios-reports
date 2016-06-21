@@ -90,19 +90,14 @@ The table of Scoring Rubrics (at the bottom of the first page of each Report) de
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Parte técnica}
-Para a implementação da plataforma por2folios, foi-nos fornecida uma máquina com endereço fixo, alojada na area das 
-VM (Virtual Machine) do Técnico. Esta máquina, quando nos foi entregue, foi fornecida com acessos de root, em que não nos foi 
-imposta nenhuma restrição sobre a utilização da mesma.
-Falamos de uma máquina com 1GB de memória real, 2GB de memória virtual, e 37GB de alojamento.
-Esta máquina trazia uma distribuição Ubuntu, algo antiga.
-Para tornarmos a máquina acessível, primeiramente actualizamos a distribuição para uma mais recente (sendo ubuntu, quanto mais recente, mais fiabilidade, menos falhas de segurança)
-Após análise do próximo passo a tomar, e como estávamos a trabalhar com uma virtual machine, optamos por instalar um programa para a gestão do servidor a partir da internet. Recorremos ao WEBMIN, em que acedemos pela porta 10000, e conseguimos fazer a gestão do servidor de forma eficiente, tornando a manutenção do servidor user friendly.
-Tendo já um acesso, uma porta para a administração do servidor, discutimos a melhor plataforma para o desenvolvimento da plataforma Por2folios. Após tentarmos explorar diversos Content Management Systems (CMS), concluímos que o que traria mais proveito seria o sistema WordPress. Para a instalação deste sistema (e de qualquer um deles, na realidade), tivemos que instalar um servidor HTTP. De novo, para facilitar o processo de manutenção, recorremos a uma ferramenta que já está bem documentada, e tem muito “support” na internet. Falamos do servidor Apache (Apache HTTP Server). Este, gratuito, corre em sistemas windows e unix, e tem a versão 2.4 como sendo a ultima estável lançada.
-Para alojar também todo o conteúdo, e permitir uma persistência associada ao wordpress, tivemos que implementar também uma base de dados MySQL, associando as colunas e linhas ás várias funcionalidades disponíveis no WordPress.
-Tendo a base instalada, lançamos uma versão Alpha da plataforma, testamos as funcionalidades, e já conseguimos fazer algumas operações básicas na plataforma.
-Entretanto, e para garantir segurança, foi adicionado o método de autenticação por SSH ao servidor por SSH-KEYS. Este, prova ser muito mais fiável, ao ter a password pública do utilizador associada á conta do utilizador no servidor. Contudo, apesar de ser falível, para facilitar o processo de manutenção para o futuro, continuamos a ter o login com utilizador e palavra passe, perdemos segurança (muita), mas não dificultamos a vida aos nossos futuros utilizadores.
-As chaves SSH correm paralelamente ao Webmin.
-Neste momento, a plataforma está em fase beta, da sua primeira iteração. Esperamos, no decorrer do próximo semestre, continuar a iterar sobre esta plataforma, para lançarmos mais funcionalidades nesta plataforma.
+For the Por2Folios platform implementation a fixed address machine was provided, hosted within the Virtual Machine of Instituto Superior Técnico. This machine was given to us, along with root accesses, with no restrictions of use whatsoever. The machine had 1Gb of Ram memory, 2Gb of virtual memory and 37Gb of storage capacity. The machine also had an out-of-date Ubunto distribution installed. To make the machine accessible we started by updating the Ubunto distribution to a more recent one (with Ubunto, the more recent the distribution, the more reliable and safer it is). Afterwards, we discussed what was the next step to take. Since we were working with a virtual machine to which we had no physical access, we decided to install a program to facilitate server management through the internet.  We used WebMin, to which access is made by the port 10000, enabling us to manage the server efficiently. This made server maintenance user friendly.
+
+We had previously discussed what would be the best platform to develop Por2Folios. After exploring several \ac{CMS}, we concluded that WordPress was the one that better fitted our requirements. This was done before having access to the provided machine so, initially, we got the server running on a private machine. With everything installed in the private machine we launched an Alpha version of the platform, tested some functionalities, and we were able to perform some basic operations.
+Having access and a port for server administration already installed in the provided machine, we then decided to migrate the WordPress from the private machine to the provided machine.
+Before migrating WordPress (or any kind of \ac{CMS} actually) we had to install a HTTP server. Yet again, to facilitate the maintenance process, we used a tool which is largely documented and supported in the internet -- the Apache HTTP Server. This tool is free, runs in Windows and Unix, and 2.4 is the latest stable release. 
+In order to store all the content, and to allow persistence associated with WordPress, we also had to implement a MySQL Database. Some changes were initially made to the MySql tables in order to integrate the DataBase with WordPress and, after migrating, some more changes were made to accommodate the change of domain associated with the migration to the Instituto Superior Técnico Domain.
+After migrating, and to ensure security, an SSH Authentication access to the server using SSH-KEYS was implemented. This method becomes way more reliable by having the public passwords of users associated to the user account on the server. However, in order to facilitate access to future users, and to facilitate further maintenance, we continue to support the login with username and password. Both methods are currently supported.
+At the moment the platform is in Beta status. Next semester we hope we'll continue to develop the platform, adding more functionalities and further enhancing the user experience.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Figures}
@@ -151,6 +146,7 @@ Here I am. I am pursuing my Engineering studies at \ac{IST}. Lorem ipsum dolor s
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % *** DEFINITION OF ACRONYMS ***
+	\acrodef{CMS}{Content Management Systems}
 	\acrodef{CPU}{Central Processing Unit}
 	\acrodef{GUI}{Graphical User Interface}
 	\acrodef{HTTP}{Hypertext Transfer Protocol}

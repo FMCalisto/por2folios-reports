@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.14)  21 JUN 2016 14:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.14)  21 JUN 2016 16:55
 entering extended mode
 **./PP_Report.tex
 (PP_Report.tex
@@ -989,150 +989,83 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 Para a implementa[][]ao da plataforma
- []
+Package acronym Info: Label `acro:CMS' newly defined as it shall be overridden
+although it is yet undefined on input line 95.
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 por2folios, foi-nos fornecida uma m[]aquina
- []
+Package acronym Warning: Acronym `CMS' is not defined on input line 95.
 
 
-Underfull \hbox (badness 6236) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 nen-huma restri[][]ao so-bre a utiliza[][]ao da
- []
+Package acronym Warning: Acronym `CMS' is not defined on input line 95.
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 Ap[]os ten-tar-mos ex-plo-rar di-ver-sos Con-tent
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 que in-sta-lar um servi-dor HTTP. De novo,
- []
-
-
-Underfull \hbox (badness 4713) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 para fa-cil-i-tar o pro-cesso de manuten[][]ao,
- []
-
-
-Underfull \hbox (badness 2103) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 recor-re-mos a uma fer-ra-menta que j[]a est[]a
- []
-
-
-Underfull \hbox (badness 3746) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 na in-ter-net. Falamos do servi-dor Apache
- []
-
-
-Underfull \hbox (badness 4713) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 uma per-sist[]encia as-so-ci-ada ao word-press,
- []
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 as fun-cional-i-dades, e j[]a con-seguimos fazer
- []
-
-
-Underfull \hbox (badness 4193) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 al-gu-mas opera[][]oes b[]asicas na plataforma.
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 En-tre-tanto, e para garan-tir seguran[]a, foi
- []
-
-
-Underfull \hbox (badness 6141) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 para fa-cil-i-tar o pro-cesso de manuten[][]ao
- []
-
-
-Underfull \hbox (badness 1755) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 para o fu-turo, con-tin-u-amos a ter o lo-gin
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 com uti-lizador e palavra passe, perde-mos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--107
-\OT1/ppl/m/n/12 seguran[]a (muita), mas n[]ao di-fi-cul-ta-mos
- []
+Package acronym Warning: Acronym `CMS' is not defined on input line 97.
 
 <soft_skills.png, id=18, 604.2575pt x 602.25pt>
 File: soft_skills.png Graphic file (type png)
  <use soft_skills.png>
-Package pdftex.def Info: soft_skills.png used on input line 114.
+Package pdftex.def Info: soft_skills.png used on input line 109.
 (pdftex.def)             Requested size: 252.0pt x 251.16049pt.
-
+ [2]
 No file PP_Report.bbl.
-[2] <bruno.png, id=23, 1432.35126pt x 1432.35126pt>
+<bruno.png, id=23, 1432.35126pt x 1432.35126pt>
 File: bruno.png Graphic file (type png)
  <use bruno.png>
-Package pdftex.def Info: bruno.png used on input line 136.
+Package pdftex.def Info: bruno.png used on input line 131.
 (pdftex.def)             Requested size: 72.25557pt x 72.25557pt.
 File: bruno.png Graphic file (type png)
 
 <use bruno.png>
-Package pdftex.def Info: bruno.png used on input line 136.
+Package pdftex.def Info: bruno.png used on input line 131.
 (pdftex.def)             Requested size: 72.25557pt x 72.25557pt.
 Package acronym Info: Label `acro:IST' newly defined as it shall be overridden
-although it is yet undefined on input line 137.
+although it is yet undefined on input line 132.
 
 
-Package acronym Warning: Acronym `IST' is not defined on input line 137.
+Package acronym Warning: Acronym `IST' is not defined on input line 132.
 
 
-Package acronym Warning: Acronym `IST' is not defined on input line 137.
+Package acronym Warning: Acronym `IST' is not defined on input line 132.
 
 <francisco.png, id=26, 355.3275pt x 358.33875pt>
 File: francisco.png Graphic file (type png)
  <use francisco.png>
-Package pdftex.def Info: francisco.png used on input line 140.
+Package pdftex.def Info: francisco.png used on input line 135.
 (pdftex.def)             Requested size: 72.26788pt x 72.88033pt.
 File: francisco.png Graphic file (type png)
 
 <use francisco.png>
-Package pdftex.def Info: francisco.png used on input line 140.
+Package pdftex.def Info: francisco.png used on input line 135.
 (pdftex.def)             Requested size: 72.26788pt x 72.88033pt.
 
 
-Package acronym Warning: Acronym `IST' is not defined on input line 141.
+Package acronym Warning: Acronym `IST' is not defined on input line 136.
 
 <me.png, id=29, 416.55624pt x 429.605pt>
 File: me.png Graphic file (type png)
  <use me.png>
-Package pdftex.def Info: me.png used on input line 144.
+Package pdftex.def Info: me.png used on input line 139.
 (pdftex.def)             Requested size: 72.26917pt x 74.53302pt.
 File: me.png Graphic file (type png)
  <use me.png>
-Package pdftex.def Info: me.png used on input line 144.
+Package pdftex.def Info: me.png used on input line 139.
 (pdftex.def)             Requested size: 72.26917pt x 74.53302pt.
 
 
-Package acronym Warning: Acronym `IST' is not defined on input line 145.
+Package acronym Warning: Acronym `IST' is not defined on input line 140.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 148.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 143.
 [3 <./bruno.png> <./francisco.png> <./me.png> <./soft_skills.png>]
 (PP_Report.aux) ) 
 Here is how much of TeX's memory you used:
- 15219 strings out of 493634
- 294783 string characters out of 3135646
- 368167 words of memory out of 3000000
- 18261 multiletter control sequences out of 15000+200000
+ 15221 strings out of 493634
+ 294800 string characters out of 3135646
+ 368175 words of memory out of 3000000
+ 18263 multiletter control sequences out of 15000+200000
  48473 words of font info for 94 fonts, out of 3000000 for 9000
  1028 hyphenation exceptions out of 8191
- 64i,20n,56p,733b,759s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,20n,56p,980b,715s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Nuno/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
 ps/fontname/8r.enc}<C:/Users/Nuno/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmmi6.pfb><C:/Users/Nuno/AppData/Local/Programs/MiKTeX 2.9/
@@ -1147,7 +1080,7 @@ b8a.pfb><C:/Users/Nuno/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palati
 no/uplr8a.pfb><C:/Users/Nuno/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
 palatino/uplri8a.pfb><C:/Users/Nuno/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/urw/zapfding/uzdr.pfb>
-Output written on PP_Report.pdf (3 pages, 523676 bytes).
+Output written on PP_Report.pdf (3 pages, 523416 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
