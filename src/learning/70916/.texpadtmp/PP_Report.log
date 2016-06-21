@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.23)  21 JUN 2016 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.23)  21 JUN 2016 16:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -693,18 +693,18 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 ))) (/Users/Francisco/GitHub/por2folios-reports/src/learning/70916/.texpadtmp/PP_Report.aux)
 \openout1 = `PP_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count139
@@ -746,62 +746,62 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box43
  ABD: EveryShipout initializing macros (./PP_Report_Cover.tex)
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 38.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 39.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 38.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 39.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 38.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 38.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 39.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14> on input line 38.
+(Font)              <14> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.79996> on input line 38.
+(Font)              <9.79996> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 38.
-LaTeX Font Info:    Try loading font information for U+pzd on input line 38.
+(Font)              <7> on input line 39.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 39.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 38.
+(Font)              <9> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 38.
+(Font)              <6> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 38.
+(Font)              <5> on input line 39.
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <14> not available
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 44.
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 45.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 []\OT1/ppl/m/sc/12 ste \OT1/ppl/m/n/12 pro-jecto foi-me ap-re-sen-tado na
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 53--54
+Underfull \hbox (badness 3058) in paragraph at lines 54--55
 \OT1/ppl/m/n/12 primeira aula da cadeira de Port-fo-lio
  []
 
 
-Underfull \hbox (badness 5133) in paragraph at lines 53--54
+Underfull \hbox (badness 5133) in paragraph at lines 54--55
 \OT1/ppl/m/n/12 Pro-fes-sor Rui Cruz e a mesma con-siste
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 53--54
+Underfull \hbox (badness 2875) in paragraph at lines 54--55
 \OT1/ppl/m/n/12 em de-sen-volver, im-ple-men-tar e in-sta-lar a
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 53--54
+Underfull \hbox (badness 4467) in paragraph at lines 54--55
 \OT1/ppl/m/n/12 dos req-ui-si-tos e analise dos mes-mos. O
  []
 
@@ -813,120 +813,85 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Package acronym Info: Label `acro:INESC-ID' newly defined as it shall be overridden
-although it is yet undefined on input line 71.
+although it is yet undefined on input line 72.
 
-
-Package acronym Warning: Acronym `INESC-ID' is not defined on input line 71.
-
-
-Package acronym Warning: Acronym `INESC-ID' is not defined on input line 71.
-
-
-Underfull \hbox (badness 1776) in paragraph at lines 71--72
+Underfull \hbox (badness 1776) in paragraph at lines 72--73
 []\OT1/ppl/m/n/12 Tamb[]em foi in-ter-es-sante in-te-grar o meu
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 73--74
+Underfull \hbox (badness 1953) in paragraph at lines 74--75
 \OT1/ppl/m/n/12 para agen-dar uma se-gunda re-uni[]ao e as-
  []
 
 [2]
-Underfull \hbox (badness 1496) in paragraph at lines 87--88
+Underfull \hbox (badness 1496) in paragraph at lines 88--89
 []\OT1/ppl/m/n/12 Ap[]os a ter-ceira re-uni[]ao, quando o meu
  []
 
 
-Package acronym Warning: Acronym `INESC-ID' is not defined on input line 91.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
  \OT1/phv/b/sc/14 4 De-sen-volvi-mento da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 []\OT1/ppl/m/n/12 Analisei tamb[]em v[]arias platafor-mas
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 106.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 107.
 [3
 
 ]
-Underfull \hbox (badness 7186) in paragraph at lines 107--108
+Underfull \hbox (badness 7186) in paragraph at lines 108--109
 []\OT1/ppl/m/n/12 Apreciei bas-tante o de-sen-volvi-mento e
  []
 
 Package acronym Info: Label `acro:CMS' newly defined as it shall be overridden
-although it is yet undefined on input line 113.
-
-Package acronym Warning: Acronym `CMS' is not defined on input line 113.
-
-
-Package acronym Warning: Acronym `CMS' is not defined on input line 113.
-
+although it is yet undefined on input line 114.
 Package acronym Info: Label `acro:IST' newly defined as it shall be overridden
-although it is yet undefined on input line 113.
+although it is yet undefined on input line 114.
 
-Package acronym Warning: Acronym `IST' is not defined on input line 113.
-
-
-Package acronym Warning: Acronym `IST' is not defined on input line 113.
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 113--114
-\OT1/ppl/m/n/12 dom[]^^Pnio as-so-ci-ado. O ex-ce-lente acom-pan-
+Underfull \hbox (badness 2564) in paragraph at lines 114--115
+\OT1/ppl/m/n/12 as-so-ci-ado. O ex-ce-lente acom-pan-hamento e
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 115--116
+Underfull \hbox (badness 2245) in paragraph at lines 116--117
 []\OT1/ppl/m/n/12 A par-tilha, dis-cuss[]ao e comunica[][]ao de
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 129--130
+Underfull \hbox (badness 2781) in paragraph at lines 130--131
 \OT1/ppl/m/n/12 Queria agrade-cer aos mem-bros da minha
  []
 
-<francisco.png, id=26, 355.3275pt x 358.33875pt>
+<francisco.png, id=25, 355.3275pt x 358.33875pt>
 File: francisco.png Graphic file (type png)
  <use francisco.png>
-Package pdftex.def Info: francisco.png used on input line 135.
+Package pdftex.def Info: francisco.png used on input line 136.
 (pdftex.def)             Requested size: 72.26788pt x 72.88033pt.
 File: francisco.png Graphic file (type png)
  <use francisco.png>
-Package pdftex.def Info: francisco.png used on input line 135.
+Package pdftex.def Info: francisco.png used on input line 136.
 (pdftex.def)             Requested size: 72.26788pt x 72.88033pt.
-
-
-Package acronym Warning: Acronym `IST' is not defined on input line 136.
-
 Package acronym Info: Label `acro:VIMMI' newly defined as it shall be overridden
-although it is yet undefined on input line 136.
-
-Package acronym Warning: Acronym `VIMMI' is not defined on input line 136.
-
-
-Package acronym Warning: Acronym `VIMMI' is not defined on input line 136.
-
-
-Package acronym Warning: Acronym `INESC-ID' is not defined on input line 136.
-
-[4 <./francisco.png>] (/Users/Francisco/GitHub/por2folios-reports/src/learning/70916/.texpadtmp/PP_Report.aux) ) 
+although it is yet undefined on input line 137.
+ [4 <./francisco.png>] (/Users/Francisco/GitHub/por2folios-reports/src/learning/70916/.texpadtmp/PP_Report.aux) ) 
 Here is how much of TeX's memory you used:
- 15367 strings out of 493089
- 293870 string characters out of 6134841
- 377750 words of memory out of 5000000
- 18494 multiletter control sequences out of 15000+600000
- 45686 words of font info for 91 fonts, out of 8000000 for 9000
+ 15380 strings out of 493089
+ 293957 string characters out of 6134841
+ 378370 words of memory out of 5000000
+ 18508 multiletter control sequences out of 15000+600000
+ 45077 words of font info for 90 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  64i,20n,56p,893b,713s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on /Users/Francisco/GitHub/por2folios-reports/src/learning/70916/.texpadtmp/PP_Report.pdf (4 pages, 141869 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on /Users/Francisco/GitHub/por2folios-reports/src/learning/70916/.texpadtmp/PP_Report.pdf (4 pages, 132568 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  30 words of extra memory for PDF output out of 10000 (max. 10000000)
 
