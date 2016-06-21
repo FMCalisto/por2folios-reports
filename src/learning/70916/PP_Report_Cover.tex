@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+%% PP_Report_Cover.tex
+%% V1.4
+%% 2015/11/30
+%% by Rui Santos Cruz
+% !TEX root = ./main.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+% Do not put math or special symbols in the title.
+\title{Por2folios Platform}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author names
+%
+% note positions of commas and nonbreaking spaces ( ~ ) LaTeX will not break
+% a structure at a ~ so this keeps an author's name from being broken across
+% two lines.
+% use \thanks{} to gain access to the first footnote area
+% a separate \thanks must be used for each paragraph.
+%
+%\IEEEcompsocitemizethanks is a special \thanks that produces the bulleted
+% lists for "first footnote" author affiliations. 
+% Use \IEEEcompsocthanksitem which works much like \item
+% for each affiliation group.
+\author{Bruno~Cardoso,
+        Francisco~Maria~Calisto,
+        Nuno~Sousa% <-this % stops a space
+% Change the Course Name 
+% note: need leading \protect in front of \\ to get a newline within \thanks as
+% \\ is fragile and will error, could use \hfil\break instead.
+\IEEEcompsocitemizethanks{
+\IEEEcompsocthanksitem Bruno~Cardoso, nr. 72619,\protect\\ 
+E-mail: bruno.f.cardoso@tecnico.ulisboa.pt,
+\IEEEcompsocthanksitem Francisco~Maria~Calisto, nr. 70916,\protect\\
+E-mail: francisco.calisto@tecnico.ulisboa.pt,
+\IEEEcompsocthanksitem Nuno~Sousa, nr. 73216,\protect\\
+E-mail: nuno.g.sousa@tecnico.ulisboa.pt,\protect\\
+Instituto Superior Técnico, Universidade de Lisboa.\protect\\}% <-this % stops an unwanted space}% <-this % stops an unwanted space
+\thanks{Manuscript received on Month Day, 2015.}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The paper headers
+\markboth{Por2folios}%
+% for a single student
+%{Surname}% : for a single student 
+% for a Group Report 
+{Surname \MakeLowercase{\textit{et al.}}}% : for a Group Report 
+%
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Prints in Subtitle the type of Report
+% PLEASE DO NOT CHANGE THIS SECTION
+\IEEEspecialpapernotice{%
+\ifthenelse{\equal{\ReportType}{activity}}{%
+\tlangRepActivity}{\tlangRepLearning}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

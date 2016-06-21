@@ -1,0 +1,1069 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2015.11.23)  21 JUN 2016 10:43
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex
+(/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:16: Undefined control sequence.
+l.16 \usepackage
+                [main=english]{babel}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:17: Undefined control sequence.
+l.17 \usepackage
+                [utf8]{inputenc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:18: Undefined control sequence.
+l.18 \usepackage
+                {iflang}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:21: Undefined control sequence.
+l.21 \newcommand
+                *{\ReportType}{learning}% Uncomment line for Learning Report
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:21: Undefined control sequence.
+l.21 \newcommand*{\ReportType
+                             }{learning}% Uncomment line for Learning Report
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:26: Undefined control sequence.
+l.26 \usepackage
+                [printonlyused,nolist]{acronym}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:29: Undefined control sequence.
+l.29 \usepackage
+                {cite}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:32: Undefined control sequence.
+l.32 \usepackage
+                [pdftex]{graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:33: Undefined control sequence.
+l.33 \DeclareGraphicsExtensions
+                               {.pdf,.jpeg,.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:36: Undefined control sequence.
+l.36 \usepackage
+                [cmex10]{amsmath}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:39: Undefined control sequence.
+l.39 \usepackage
+                {algorithmic}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:42: Undefined control sequence.
+l.42 \usepackage
+                {array}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:45: Undefined control sequence.
+l.45 \usepackage
+                [caption=false,font=normalsize,labelfont=sf,textfont=sf]{sub...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:48: Undefined control sequence.
+l.48 \usepackage
+                {fixltx2e}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:51: Undefined control sequence.
+l.51 \usepackage
+                {url}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:54: Undefined control sequence.
+l.54 \usepackage
+                {eso-pic}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:55: Undefined control sequence.
+l.55 \usepackage
+                [
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:63: Undefined control sequence.
+l.63 \usepackage
+                {ifthen}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:66: Undefined control sequence.
+l.66 \newcommand
+                {\tlangRepActivity}{\IfLanguageName{english}{Activity Report...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:66: Undefined control sequence.
+l.66 \newcommand{\tlangRepActivity
+                                  }{\IfLanguageName{english}{Activity Report...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:66: Undefined control sequence.
+l.66 ...command{\tlangRepActivity}{\IfLanguageName
+                                                  {english}{Activity Report}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:67: Undefined control sequence.
+l.67 \newcommand
+                {\tlangRepLearning}{\IfLanguageName{english}{Learnings Repor...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:67: Undefined control sequence.
+l.67 \newcommand{\tlangRepLearning
+                                  }{\IfLanguageName{english}{Learnings Repor...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:67: Undefined control sequence.
+l.67 ...command{\tlangRepLearning}{\IfLanguageName
+                                                  {english}{Learnings Report...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:70: Undefined control sequence.
+l.70 \newcommand
+                {\lrScore}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:70: Undefined control sequence.
+l.70 \newcommand{\lrScore
+                         }%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:71: Undefined control sequence.
+l.71 {\setlength
+                {\unitlength}{1mm}{% % selecting unit length
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:71: Undefined control sequence.
+l.71 {\setlength{\unitlength
+                            }{1mm}{% % selecting unit length
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:72: Undefined control sequence.
+l.72 \fontfamily
+                {phv}\selectfont
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:72: Undefined control sequence.
+l.72 \fontfamily{phv}\selectfont
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:73: Undefined control sequence.
+l.73 \begin
+           {picture}(171.6,20) % picture environment with the size (dimensions)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:75: Undefined control sequence.
+l.75 \setlength
+               \fboxsep{0pt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:75: Undefined control sequence.
+l.75 \setlength\fboxsep
+                       {0pt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:77: Undefined control sequence.
+l.77 \put
+         (0,0){\fcolorbox{gray}{gray!20}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:77: Undefined control sequence.
+l.77 \put(0,0){\fcolorbox
+                         {gray}{gray!20}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:78: Undefined control sequence.
+l.78           \framebox
+                        (15,4)[l]{\scriptsize{0.2-Weak}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:78: Undefined control sequence.
+l.78           \framebox(15,4)[l]{\scriptsize
+                                             {0.2-Weak}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:79: Undefined control sequence.
+l.79 \put
+         (0,4){\fcolorbox{gray}{gray!20}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:79: Undefined control sequence.
+l.79 \put(0,4){\fcolorbox
+                         {gray}{gray!20}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:80: Undefined control sequence.
+l.80           \framebox
+                        (15,4)[l]{\scriptsize{0.4-Fair}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:80: Undefined control sequence.
+l.80           \framebox(15,4)[l]{\scriptsize
+                                             {0.4-Fair}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:81: Undefined control sequence.
+l.81 \put
+         (0,8){\fcolorbox{gray}{gray!20}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:81: Undefined control sequence.
+l.81 \put(0,8){\fcolorbox
+                         {gray}{gray!20}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:82: Undefined control sequence.
+l.82           \framebox
+                        (15,4)[l]{\scriptsize{0.6-Good}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:82: Undefined control sequence.
+l.82           \framebox(15,4)[l]{\scriptsize
+                                             {0.6-Good}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:83: Undefined control sequence.
+l.83 \put
+         (0,12){\fcolorbox{gray}{gray!20}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:83: Undefined control sequence.
+l.83 \put(0,12){\fcolorbox
+                          {gray}{gray!20}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:84: Undefined control sequence.
+l.84            \framebox
+                         (15,4)[l]{\scriptsize{0.8-V.Good}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:84: Undefined control sequence.
+l.84            \framebox(15,4)[l]{\scriptsize
+                                              {0.8-V.Good}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:85: Undefined control sequence.
+l.85 \put
+         (0,16){\fcolorbox{gray}{gray!20}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:85: Undefined control sequence.
+l.85 \put(0,16){\fcolorbox
+                          {gray}{gray!20}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:86: Undefined control sequence.
+l.86            \framebox
+                         (15,4)[l]{\scriptsize{1.0-Excel}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:86: Undefined control sequence.
+l.86            \framebox(15,4)[l]{\scriptsize
+                                              {1.0-Excel}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:88: Undefined control sequence.
+l.88 \put
+         (16,0){\fcolorbox{cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:88: Undefined control sequence.
+l.88 \put(16,0){\fcolorbox
+                          {cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:89: Undefined control sequence.
+l.89           \framebox
+                        (12,12)[c]{\footnotesize{ }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:89: Undefined control sequence.
+l.89           \framebox(12,12)[c]{\footnotesize
+                                                { }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:90: Undefined control sequence.
+l.90 \put
+         (28,0){\fcolorbox{cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:90: Undefined control sequence.
+l.90 \put(28,0){\fcolorbox
+                          {cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:91: Undefined control sequence.
+l.91           \framebox
+                        (12,12)[c]{\footnotesize{ }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:91: Undefined control sequence.
+l.91           \framebox(12,12)[c]{\footnotesize
+                                                { }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:92: Undefined control sequence.
+l.92 \put
+         (40,0){\fcolorbox{cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:92: Undefined control sequence.
+l.92 \put(40,0){\fcolorbox
+                          {cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:93: Undefined control sequence.
+l.93           \framebox
+                        (12,12)[c]{\footnotesize{ }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:93: Undefined control sequence.
+l.93           \framebox(12,12)[c]{\footnotesize
+                                                { }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:94: Undefined control sequence.
+l.94 \put
+         (52,0){\fcolorbox{cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:94: Undefined control sequence.
+l.94 \put(52,0){\fcolorbox
+                          {cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:95: Undefined control sequence.
+l.95           \framebox
+                        (12,12)[c]{\footnotesize{ }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:95: Undefined control sequence.
+l.95           \framebox(12,12)[c]{\footnotesize
+                                                { }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:96: Undefined control sequence.
+l.96 \put
+         (64,0){\fcolorbox{cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:96: Undefined control sequence.
+l.96 \put(64,0){\fcolorbox
+                          {cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:97: Undefined control sequence.
+l.97           \framebox
+                        (12,12)[c]{\footnotesize{ }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:97: Undefined control sequence.
+l.97           \framebox(12,12)[c]{\footnotesize
+                                                { }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:98: Undefined control sequence.
+l.98 \put
+         (16,12){\fcolorbox{cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:98: Undefined control sequence.
+l.98 \put(16,12){\fcolorbox
+                           {cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:99: Undefined control sequence.
+l.99           \framebox
+                        (12,4)[c]{\tiny{Intro$\times 2$}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:99: Undefined control sequence.
+l.99           \framebox(12,4)[c]{\tiny
+                                       {Intro$\times 2$}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:100: Undefined control sequence.
+l.100 \put
+          (28,12){\fcolorbox{cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:100: Undefined control sequence.
+l.100 \put(28,12){\fcolorbox
+                            {cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:101: Undefined control sequence.
+l.101           \framebox
+                         (12,4)[c]{\tiny{Motiv$\times 2$}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:101: Undefined control sequence.
+l.101           \framebox(12,4)[c]{\tiny
+                                        {Motiv$\times 2$}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:102: Undefined control sequence.
+l.102 \put
+          (40,12){\fcolorbox{cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:102: Undefined control sequence.
+l.102 \put(40,12){\fcolorbox
+                            {cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:103: Undefined control sequence.
+l.103           \framebox
+                         (12,4)[c]{\tiny{Skills$\times 6$}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:103: Undefined control sequence.
+l.103           \framebox(12,4)[c]{\tiny
+                                        {Skills$\times 6$}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:104: Undefined control sequence.
+l.104 \put
+          (52,12){\fcolorbox{cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:104: Undefined control sequence.
+l.104 \put(52,12){\fcolorbox
+                            {cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:105: Undefined control sequence.
+l.105           \framebox
+                         (12,4)[c]{\tiny{Reflect$\times 6$}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:105: Undefined control sequence.
+l.105           \framebox(12,4)[c]{\tiny
+                                        {Reflect$\times 6$}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:106: Undefined control sequence.
+l.106 \put
+          (64,12){\fcolorbox{cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:106: Undefined control sequence.
+l.106 \put(64,12){\fcolorbox
+                            {cyan}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:107: Undefined control sequence.
+l.107           \framebox
+                         (12,4)[c]{\tiny{Sugg$\times 2$}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:107: Undefined control sequence.
+l.107           \framebox(12,4)[c]{\tiny
+                                        {Sugg$\times 2$}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:108: Undefined control sequence.
+l.108 \put
+          (16,16){\fcolorbox{cyan}{cyan!20}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:108: Undefined control sequence.
+l.108 \put(16,16){\fcolorbox
+                            {cyan}{cyan!20}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:109: Undefined control sequence.
+l.109           \framebox
+                         (60,4)[c]{\footnotesize{LEARNINGS}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:109: Undefined control sequence.
+l.109           \framebox(60,4)[c]{\footnotesize
+                                                {LEARNINGS}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:111: Undefined control sequence.
+l.111 \put
+          (77,0){\fcolorbox{green}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:111: Undefined control sequence.
+l.111 \put(77,0){\fcolorbox
+                           {green}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:112: Undefined control sequence.
+l.112           \framebox
+                         (12,12)[c]{\footnotesize{ }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:112: Undefined control sequence.
+l.112           \framebox(12,12)[c]{\footnotesize
+                                                 { }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:113: Undefined control sequence.
+l.113 \put
+          (89,0){\fcolorbox{green}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:113: Undefined control sequence.
+l.113 \put(89,0){\fcolorbox
+                           {green}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:114: Undefined control sequence.
+l.114           \framebox
+                         (12,12)[c]{\footnotesize{ }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:114: Undefined control sequence.
+l.114           \framebox(12,12)[c]{\footnotesize
+                                                 { }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:115: Undefined control sequence.
+l.115 \put
+          (101,0){\fcolorbox{green}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:115: Undefined control sequence.
+l.115 \put(101,0){\fcolorbox
+                            {green}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:116: Undefined control sequence.
+l.116           \framebox
+                         (12,12)[c]{\footnotesize{ }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:116: Undefined control sequence.
+l.116           \framebox(12,12)[c]{\footnotesize
+                                                 { }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:117: Undefined control sequence.
+l.117 \put
+          (113,0){\fcolorbox{green}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:117: Undefined control sequence.
+l.117 \put(113,0){\fcolorbox
+                            {green}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:118: Undefined control sequence.
+l.118           \framebox
+                         (12,12)[c]{\footnotesize{ }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:118: Undefined control sequence.
+l.118           \framebox(12,12)[c]{\footnotesize
+                                                 { }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:119: Undefined control sequence.
+l.119 \put
+          (125,0){\fcolorbox{green}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:119: Undefined control sequence.
+l.119 \put(125,0){\fcolorbox
+                            {green}{white}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:120: Undefined control sequence.
+l.120           \framebox
+                         (12,12)[c]{\footnotesize{ }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:120: Undefined control sequence.
+l.120           \framebox(12,12)[c]{\footnotesize
+                                                 { }}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:121: Undefined control sequence.
+l.121 \put
+          (137,0){\fcolorbox{green}{white}{%
+(That makes 100 errors; please try again.)
+/Users/Francisco/GitHub/por2folios-reports/src/learning/PP_Report_Preamble.tex:121:  ==> Fatal error occurred, no output PDF file produced!

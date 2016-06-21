@@ -1,0 +1,172 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+%% PP_Report.tex
+%% V1.4
+%% 2015/11/30
+%% by Rui Santos Cruz
+%% This is a skeleton file using PPIEEEtran.cls
+%% (requires PPIEEEtran.cls) 
+% !TEX root = ./main.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,12pt,journal,twoside,compsoc]{PPIEEEtran}
+
+% -----------------------------------------------------------------------------
+% The Preamble document contains all the necessary Packages for typesetting
+% Modify it to suit your needs
+% -----------------------------------------------------------------------------
+\input{PP_Report_Preamble}
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+\begin{document}
+\input{PP_Report_Cover}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The paper Abstract and Keywords
+\IEEEtitleabstractindextext{%
+\begin{abstract}
+Este relatório tem como objectivo descrever a actividade e a aprendizagem que o projecto Plataforma Por2folios nos proporcionou ao desenvolver uma plataforma que irá reunir todos os projectos, trabalhos e relatórios dos vários anos lectivos em que a cadeira foi lecionada.
+\end{abstract}
+%
+\begin{IEEEkeywords}
+Wordpress, Por2folios, Social Media, PPIV.
+\end{IEEEkeywords}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% make the title area
+\maketitle
+
+\IEEEdisplaynontitleabstractindextext
+\IEEEpeerreviewmaketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+% The very first letter is a 2 line initial drop letter followed
+% by the rest of the first word in caps (small caps for compsoc).
+% 
+% form to use if the first word consists of a single letter:
+% \IEEEPARstart{A}{demo} file is ....
+% 
+% Here we have the typical use of a "E" for an initial drop letter
+% and "STE" in caps to complete the first word.
+\IEEEPARstart{E}{ste} projecto foi encomendado para a cadeira de Portfolio Pessoal IV e tem como objectivo desenvolver, documentar e relatar a plataforma que irá receber todos os relatório, trabalhos e projectos dos vários anos em que a cadeira foi e é lecionada. Como tal foi feito um levantamento de requisitos, várias reuniões com o Professor Rui Cruz que nos indicou não só a informação que precisávamos, como também quais os critérios na análise e levantamento dos requisitos.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Meetings}
+
+\subsection{Meeting 1}
+
+The first meeting happened right at the beginning of the semester. This was one the the most important steps for this project. This was our first contact with the project, so to say, as up to this day, we had an idea on what the project would be, but we still had to hear the project owner's requirements and overall functionalities. During this meeting, some new key elements were set, as for example, our project would have its own dedicated Virtual Machine, and we would get root privileges over this machine, having the opportunity to build something from scratch, and to configure it as we wish.
+	We algo agreed on a layout for the front page of this project.
+	
+\subsection{Meeting 2}
+
+This second meeting was also very important, as it happened during the end of April, beginning of May. A lot happened between meetings. For a start, we developed the first version of the project, and deployed it to our own private server. During this time, we got access to the final Virtual Machine, where we were able to install a server configuration tool, and to add an apache server anda database.
+Having this work finished, we have discussed with our client the status of our project, where we had the opportunity to show the current status of the prototype, and also the changes on the final VM.Everything was approved, and we were sure to be on a good path to a successful project.
+
+\subsection{Meeting 3}
+
+	This final meeting was the shortest one, as it was an unscheduled one. We got to meet our colleague Nuno, and did integrate him on our platform. We have also discussed the next steps, and include Nuno on every decision and planning. Also, the new "tags" feature was discussed during this meeting.
+	Regarding the server, we had the opportunity to show to the client the platform running already at its final server.
+	As a final note, the only technical glitch to be solved at the end of this meeting was to connect the VM's IP to the final domain.
+	(por2folios.tecnico.ulisboa.pt)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{The Project}
+The table of Scoring Rubrics (at the bottom of the first page of each Report) depends on the Report Type (ACTIVITY or LEARNINGS). Therefore, you must pay attention to have the correct table displayed when you select your Report Type in lines 21 or 22 of the \textbf{PP\_Report\_Preamble.tex} document. Failure to do so means that your Report WILL NOT BE ACCEPTED for evaluation.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Requirements}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Developments}
+\subsection{CENAS}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Parte técnica}
+Para a implementação da plataforma por2folios, foi-nos fornecida uma máquina com endereço fixo, alojada na area das 
+VM (Virtual Machine) do Técnico. Esta máquina, quando nos foi entregue, foi fornecida com acessos de root, em que não nos foi 
+imposta nenhuma restrição sobre a utilização da mesma.
+Falamos de uma máquina com 1GB de memória real, 2GB de memória virtual, e 37GB de alojamento.
+Esta máquina trazia uma distribuição Ubuntu, algo antiga.
+Para tornarmos a máquina acessível, primeiramente actualizamos a distribuição para uma mais recente (sendo ubuntu, quanto mais recente, mais fiabilidade, menos falhas de segurança)
+Após análise do próximo passo a tomar, e como estávamos a trabalhar com uma virtual machine, optamos por instalar um programa para a gestão do servidor a partir da internet. Recorremos ao WEBMIN, em que acedemos pela porta 10000, e conseguimos fazer a gestão do servidor de forma eficiente, tornando a manutenção do servidor user friendly.
+Tendo já um acesso, uma porta para a administração do servidor, discutimos a melhor plataforma para o desenvolvimento da plataforma Por2folios. Após tentarmos explorar diversos Content Management Systems (CMS), concluímos que o que traria mais proveito seria o sistema WordPress. Para a instalação deste sistema (e de qualquer um deles, na realidade), tivemos que instalar um servidor HTTP. De novo, para facilitar o processo de manutenção, recorremos a uma ferramenta que já está bem documentada, e tem muito “support” na internet. Falamos do servidor Apache (Apache HTTP Server). Este, gratuito, corre em sistemas windows e unix, e tem a versão 2.4 como sendo a ultima estável lançada.
+Para alojar também todo o conteúdo, e permitir uma persistência associada ao wordpress, tivemos que implementar também uma base de dados MySQL, associando as colunas e linhas ás várias funcionalidades disponíveis no WordPress.
+Tendo a base instalada, lançamos uma versão Alpha da plataforma, testamos as funcionalidades, e já conseguimos fazer algumas operações básicas na plataforma.
+Entretanto, e para garantir segurança, foi adicionado o método de autenticação por SSH ao servidor por SSH-KEYS. Este, prova ser muito mais fiável, ao ter a password pública do utilizador associada á conta do utilizador no servidor. Contudo, apesar de ser falível, para facilitar o processo de manutenção para o futuro, continuamos a ter o login com utilizador e palavra passe, perdemos segurança (muita), mas não dificultamos a vida aos nossos futuros utilizadores.
+As chaves SSH correm paralelamente ao Webmin.
+Neste momento, a plataforma está em fase beta, da sua primeira iteração. Esperamos, no decorrer do próximo semestre, continuar a iterar sobre esta plataforma, para lançarmos mais funcionalidades nesta plataforma.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Figures}
+ADICINAR IMAGEM ? 
+\ref{fig_sim}:
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=1\linewidth]{soft_skills.png}
+\caption{The Soft-Skills Tree}
+\label{fig_sim}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Future Work}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\IfLanguageName{english}{Conclusion}{Conclusão}}
+The conclusions. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
+
+Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% references section
+\bibliographystyle{IEEEtran}
+%\bibliography{PP_Report_bib}
+\bibliography{Mendeley}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% biography section
+% 
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{bruno.png}}]{Bruno Cardoso}
+Here I am. I am pursuing my Engineering studies at \ac{IST}. Starting my masters in Interaction and Visualization, and also on business systems. On my "spare" time, I am also developing a project at INESC-ID, at VIMMI.
+\end{IEEEbiography}
+\begin{IEEEbiography}
+[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{francisco.png}}]{Francisco Maria Calisto}
+I am pursuing my Information Systems and Computer  Engineering studies at \ac{IST}. I am also a VIMMI collaborator at INESC-ID. Currently I am working in a StartUp project called Agroop and I am Founder \& Front-end Developer of opprDev a oppr Group organisation.
+\end{IEEEbiography}
+\begin{IEEEbiography}
+[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{me.png}}]{Nuno Sousa}
+Here I am. I am pursuing my Engineering studies at \ac{IST}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+\end{IEEEbiography}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\onecolumn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% *** DEFINITION OF ACRONYMS ***
+	\acrodef{CPU}{Central Processing Unit}
+	\acrodef{GUI}{Graphical User Interface}
+	\acrodef{HTTP}{Hypertext Transfer Protocol}
+	\acrodef{IST}{Instituto Superior Técnico}
+	\acrodef{INESC-ID}{Instituto de Engenharia de Sistemas e Computadores - Investigação e Desenvolvimento}
+	\acrodef{VIMMI}{Visualization and Intelligent Multimodal Interfaces}
+	\acrodef{LAN}{Local Area Network}
+	\acrodef{PC}{Personal Computer}
+	\acrodef{URL}{Uniform Resource Locator}
+	\acrodef{VoD}{Video-on-demand}
+	\acrodefplural{VoD}[VoDs]{Videos-on-demand}
+	\acrodef{VoIP}{Voice over IP}
+	\acrodef{WAN}{Wide Area Network}
+	\acrodef{WLAN}{Wireless Local Area Network}
+	\acrodef{WWAN}{Wireless Wide Area Network}
+	\acrodef{WWW}{World Wide Web}
+	
+% that's all folks
+\end{document}
