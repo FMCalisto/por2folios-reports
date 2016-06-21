@@ -96,17 +96,29 @@ Os requisitos funcionais do projeto são as funcionalidades que serão utilizada
 
 Proporcionar aos utilizadores pré-registados pelo Administrador fazerem login através do back-office. Estar com a sessão iniciada é um factor fundamental para gerir a informação da plataforma.
 
-\subsubsection{Aprovar Posts}
+\subsubsection{Aprovar Actividades}
 
-Aprovar posts neste caso é fundamental para que haja moderação do fluxo de informação da plataforma. Tal é moderado por utilizadores que tenham permissões para o fazer.
+Aprovar as actividades inseridas neste caso é fundamental para que haja moderação do fluxo de informação da plataforma. Tal é moderado por utilizadores que tenham permissões para o fazer.
 
 \subsubsection{Gerir Informação}
 
-Toda a informação será gerida por utilizadores que tenham permissões para o fazer, sejam eles administradores ou apenas moderadores com a responsabilidade de gerir informação da página.
+Toda a informação será gerida por utilizadores que tenham permissões para o fazer, sejam eles administradores ou apenas moderadores com a responsabilidade de gerir informação da plataforma Por2folios.
 
 \subsection{Requisitos Não-Funcionais}
 
 Estes requisitos visam ofertar e melhorar a qualidade do sistema. Neste sentido, haverá um esforço maior para que questões referentes à usabilidade e confiança do sistema sejam padronizadas e efetivamente adequadas ao serviço prestado.
+
+\subsubsection{Usabilidade}
+
+O sistema deve ser de fácil compreensão e de fácil uso para o utilizador. Sendo assim, os campos disponíveis pela plataforma devem ser facilmente visíveis e com nomenclatura intuitiva e de boa leitura. Além disso, deve ter um certo nível de tolerância aos erros do utilizador.
+
+\subsubsection{Manutenção}
+
+O sistema deve oferecer facilidade de ser mantido através de manutenções. Sendo assim, foram seguidos padrões durante a sua produção. Como também, garantir que novos requisitos sejam incluídos quando forem necessários.
+
+\subsubsection{Portabilidade}
+
+O sistema de ser capaz de ser acedido em plataformas que os seus utilizadores estejam habituados a utilizar. Ou seja, deve ter a capacidade de ser acedido em diferentes ambientes (ex: Browser, Mobile, etc...). 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -114,7 +126,59 @@ Estes requisitos visam ofertar e melhorar a qualidade do sistema. Neste sentido,
 
 Esta secção descreve o desenvolvimento deste projeto ao longo do semestre, explicitando o fio condutor que leva desde a ideia inicial de criar uma plataforma com todos os relatórios ate resultados finais que conseguimos obter.
 
-\subsection{CENAS}
+\subsection{Prototipagem}
+
+A primeira fase é sempre a de prototipagem de baixa fidelidade e em papel dado que os recursos são mais moldáveis e os custos bastante mais baixos do que passar logo para um desenvolvimento directo. Nesta fase foram feitos os primeiros protótipos em conjunto com o Professor Rui Cruz e na segunda reunião de grupo do projecto Por2folios Platform. Foi aqui que começamos por fazer os vários protótipos tentando compreender qual a melhor solução, sendo que a mesma passava por ter a lista de actividades logo na página inicial mas com um limite máximo de actividades exibidas por cada página, sendo que em baixo das mesmas estaria outra lista de números para o utilizador ir de página em página visualizar as várias actividades.
+
+Na fase de prototipagem também concluímos o menu em questão sendo que o mesmo iria ter a seguinte lista de opções:
+
+- Home;
+
+- Activities;
+
+- Entities;
+
+Em suma, a estrutura básica do projecto ficou logo definida facilmente na fase de prototipagem como podemos concluir. Desta forma avançamos para a fase de desenvolvimento.
+
+\subsection{Main Developments}
+
+Nesta fase começamos por analisar todas as ferramentas ao nosso dispor para o desenvolvimento de uma plataforma dinâmica e interactiva. As opções que tínhamos foram as seguintes:
+
+- \ac{CMS} Nativo: desenvolvido de raiz por nós através de uma, ou várias, linguagens de programação, ou frameworks. Verificou-se desde logo uma opção a não considerar.
+
+- Drupal: é um excelente CMS com uma optima prestação no entanto a documentação e a nossa experiência nesta plataforma não eram de todo o melhor.
+
+- GitHub Pages: dado ao facto de ser estático não seria de todo uma opção dado que desenvolver aqui um back-office seria algo não exequível.
+
+- Wordpress: tem muita e boa documentação para a base que estamos a fazer e é de facto um CMS bastante simples, o que iria ajudar na sua implementação.
+
+Foi então escolhido o desenvolvimento da plataforma em Wordpress dado que tinha os melhores custos/benefícios comparativamente com os restantes CMS. A partir daqui começamos por perceber quais as componentes do Wordpress necessários para a plataforma Por2folios.
+
+Utilizamos um tema nativo que mais tarde alteramos e adicionamos alguns funções para as modificações que fizemos no Front-end. No que toca a plugins, instalamos apenas um plugin que limita o numero de tentativas de login efectuadas, para que esteja em conformidade com os requisitos de segurança.
+
+\clearpage
+
+\subsection{Final Developments}
+
+Os resultados finais da primeira versão desta plataforma onde os mesmos estão adaptados tanto para browser como para mobile. Na Figure 1 pode-se observar a versão Desktop da plataforma Por2folios.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=1\linewidth]{desktop.png}
+\caption{Por2folios Platform Desktop Version}
+\label{fig_sim}
+\end{figure}
+
+A plataforma é responsive para que consiga ser lida e acedida via ambientes mobile para facilitar o acesso à mesma. Esta versão mobile pode ser vista na Figure 2.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=1\linewidth]{mobile}
+\caption{Por2folios Platform Mobile Version}
+\label{fig_sim}
+\end{figure}
+
+Assim se pode observar a nossa preocupação em haver e cumprir os requisitos básicos de usabilidade e portabilidade de uma interface web. Apesar de um grande trabalho em desenvolver para ambos os ambientes e para ambas as plataformas o resultado final é de facto compensador.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -129,20 +193,17 @@ After migrating, and to ensure security, an SSH Authentication access to the ser
 At the moment the platform is in Beta status. Next semester we hope we'll continue to develop the platform, adding more functionalities and further enhancing the user experience.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Figures}
-ADICINAR IMAGEM ? 
-\ref{fig_sim}:
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=1\linewidth]{soft_skills.png}
-\caption{The Soft-Skills Tree}
-\label{fig_sim}
-\end{figure}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Future Work}
+
+Iremos aqui falara no trabalho que deverá ser realizado no futuro ainda para mais tendo em conta que os elementos deste relatório irão todos fazer em conjunto uma evolução do projecto Por2folios.
+
+É necessário fazer toda a documentação da plataforma, desde um manual de utilizador até a relatórios de desenvolvimento dado que esta informação será util para grupos futuros que se queiram confrontar com este projecto.
+
+No que toca ao desenvolvimento é importante criar na plataforma uma forma de inserção standadr das actividades com entradas de tabelas predefinidas com os formatos pretendidos a serem impressos no Front-end. Esta feature será importante para o bom funcionamento da plataforma e muito provavelmente irá ser necessário aumentar a equipa para o desenvolvimento desta funcionalidade.
+
+Por fim será necessário integrar a plataforma com uma equipa que a irá gerir e como tal será feito um trabalho na ordem dos sistemas de informação que irão testar a integração deste processo nos meios informativos da UC PPIV.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{\IfLanguageName{english}{Conclusion}{Conclusão}}
