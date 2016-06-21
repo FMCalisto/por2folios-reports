@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+%% PP_Report.tex
+%% V1.4
+%% 2015/11/30
+%% by Rui Santos Cruz
+%% This is a skeleton file using PPIEEEtran.cls
+%% (requires PPIEEEtran.cls) 
+% !TEX root = ./main.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,12pt,journal,twoside,compsoc]{PPIEEEtran}
+
+% -----------------------------------------------------------------------------
+% The Preamble document contains all the necessary Packages for typesetting
+% Modify it to suit your needs
+% -----------------------------------------------------------------------------
+\input{PP_Report_Preamble}
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+\begin{document}
+\input{PP_Report_Cover}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The paper Abstract and Keywords
+\IEEEtitleabstractindextext{%
+\begin{abstract}
+The goal of this report is to describe and highlight every stage on the development of a platform called Po2folios, developed during the semester. The main goal on this platform is to showcase every project and report developed during previous editions of the Portfolio III and IV classes.\end{abstract}
+%
+\begin{IEEEkeywords}
+Wordpress, Por2folios, projects, reports, PPIV, PPIII.
+\end{IEEEkeywords}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% make the title area
+\maketitle
+
+\IEEEdisplaynontitleabstractindextext
+\IEEEpeerreviewmaketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+% The very first letter is a 2 line initial drop letter followed
+% by the rest of the first word in caps (small caps for compsoc).
+% 
+% form to use if the first word consists of a single letter:
+% \IEEEPARstart{A}{demo} file is ....
+% 
+% Here we have the typical use of a "E" for an initial drop letter
+% and "STE" in caps to complete the first word.
+\IEEEPARstart{T}{he} development of this platform was time restricted, as we were already experienced in web development. With this in mind, we were careful not to commit to features that would exceed this time limit, and, managed to complete version 1.0 of the platform.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{early experience}
+During my first 3 years in Computer Science, I learned that there is a set of rules as to "how to interact with our client". For a start, there is the need to perfectly understand the requirements a platform must have, and, from previous work experience, I did learn that, despite the developer and client think alike, what they are really thinking is remotely different from each other.
+To give an example, when the client asks for a web repository, my main idea is to develop some sort of an FTP server where an interface allows access to several people involved in the project. Yet, as in this case, the goal is not to simply store files, but to showcase them. As this is a recurring situation on the IT World, there is a need to establish a communication channel between the client and the development team. For this, we decided to report every situation internally, by email, and also by scheduling a meeting with our client.
+
+\section{The First Steps}
+For the first three to four weeks, I was aware that there was a platform to be developed, and my basic idea was to develop something that included a good interface, so that our colleagues had no difficulty in accessing the platform to add content, but also to allow every web visitor to easily access the previous developed projects on this class.
+
+It was only after the first meeting with the team, along with Professor Rui Cruz, that we were able to establish what was to be developed. This included the platform layout, some required functionalities, an interface for the content managers, and also some general aspects.
+
+
+\section{Team Work}
+As explained before, the key element for a successful team work is communication. With this in mind, Calisto and I maintained a team work channel for this project. This included a Facebook Conversation, and a couple of presencial meetings at Técnico. 
+As Calisto is more of an interface developer, and I prefer to give support on server side, it was decided that I would be in charge of the server setup. I do remind at this point that our Virtual Machine was Vanilla at this stage, only with Ubuntu 12 installed.
+After choosing our working platform, my job was essentially to prepare the VM to receive the WordPress Suite. At every stage, Calisto was up to date with the development, and could begin its interface development.
+
+\section{Progress}
+I consider that this was a very successful project. For a start, we started working as soon as possible, and that gave us time to carefully thing about each aspect of this project. Looking back at the semester, we did everything we decided on our meetings. This included a fully functional platform, our webserver, domain and the tags feature.
+	For this to happen, we have reserved 2 to 3 hours per week to develop this project. Most of the work happened after our Thursday theoretical lesson, and usually ended up by 2 AM.
+	The main challenge here was to successfully setup the apache server, and to install an easy to use server management service. Installing WebMin ( as suggested by our teacher) was one of the best decision we did, as it allows us to connect to the server using an HTTP protocol, and a specific port. Although this may not be the most secure connection ever, as the SSL certificate was not up to date, to access the server, we do require login credentials, and, it is up to each user's responsibility not to eavesdrop their own credentials.
+	After successfully setting up WebMin, simple tasks such as adding a user, or installing a new module on the server, or even redirecting to a specific incoming address is easily done online, anywhere. We are used to do this using a Secure Shell, but, to keep this platform user friendly, we have decided to follow this approach.
+	In the middle of this project, Nuno, our colleague, joined this project, and helped us develop the rest of the platform. He was also essencial for the release of our beta platform. The final TAGS feature, where one can associate one or more keywords to a portfolio project, was developed by Nuno. He was also responsible for adding the older keywords from previous years.
+	
+	
+\section{Overall}
+Overall, this project was very fullfilling, as it helped us develop our technical skills regarding interfaces, server setup and maintenance. It was also responsible for the development of our soft skills, as we used them a lot during this project. For example, problem solving got easier when using these new soft skills.
+As a group, we all did a great job, as we maintained communication, and every decision was made as a group, with the consent of everyone.
+We did divide the work among the group, taking advantage of each member's skills on each feature of our platform.
+The final version of this platform is fully functional, with all the features we agreed on during the beginning of the semester. There is a front-end and a back-office, where we are able to create new users, and to add content. We can also grant admin access to these new users, and make them content managers.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\IfLanguageName{english}{Conclusion}{Conclusão}}
+In conclusion, 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% use section* for acknowledgement
+\ifCLASSOPTIONcompsoc
+  % The Computer Society usually uses the plural form
+  \section*{\IfLanguageName{english}{Acknowledgments}{Agradecimentos}} % Acknowledgments
+\else
+  % regular IEEE prefers the singular form
+  \section*{Acknowledgment}
+\fi
+
+The authors would like to thank...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
+Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% references section
+\bibliographystyle{IEEEtran}
+%\bibliography{PP_Report_bib}
+\bibliography{Mendeley}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% biography section
+% 
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{bruno.png}}]{Bruno Cardoso}
+Here I am. I am pursuing my Engineering studies at \ac{IST}. Starting my masters in Interaction and Visualization, and also on business systems. On my "spare" time, I am also developing a project at INESC-ID, at VIMMI.
+\end{IEEEbiography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% *** DEFINITION OF ACRONYMS ***
+	\acrodef{CPU}{Central Processing Unit}
+	\acrodef{GUI}{Graphical User Interface}
+	\acrodef{HTTP}{Hypertext Transfer Protocol}
+	\acrodef{IST}{Instituto Superior Técnico}	
+	\acrodef{LAN}{Local Area Network}
+	\acrodef{PC}{Personal Computer}
+	\acrodef{URL}{Uniform Resource Locator}
+	\acrodef{VoD}{Video-on-demand}
+	\acrodefplural{VoD}[VoDs]{Videos-on-demand}
+	\acrodef{VoIP}{Voice over IP}
+	\acrodef{WAN}{Wide Area Network}
+	\acrodef{WLAN}{Wireless Local Area Network}
+	\acrodef{WWAN}{Wireless Wide Area Network}
+	\acrodef{WWW}{World Wide Web}
+	
+% that's all folks
+\end{document}
