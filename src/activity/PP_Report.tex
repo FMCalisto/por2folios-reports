@@ -52,9 +52,13 @@ Wordpress, Por2folios, Social Media, PPIV.
 % and "STE" in caps to complete the first word.
 \IEEEPARstart {T}{his} project was commissioned as part of the PPIV course. Its main objective is to develop, document and report the development process of a platform to hold all the previous works and projects developed within the PPIV course. As such we documented all the requirements and had several meetings with Professor Rui Cruz, who gave us not only the necessary information we needed, as well as the analysis criteria and requirements specifications.
 
+Todos os anos, dezenas de alunos dos \ac{MEIC} ingressam numa das duas Unidades Curriculares (UCs) de Portfolio Pessoal existentes. Estas unidades UCs permitem aos alunos desenvolver as suas soft-skills, capacidades não técnicas, transversais a qualquer area profissional, que são ferramentas essenciais para o desenvolvimento de todo o ser humano. Nesta Unidade Curricular (UC), os alunos escolhem uma das varias atividades disponíveis na plataforma da UC para desenvolver ao longo do semestre e, no fim do semestre letivo, submetem dois relatórios sobre as atividades desenvolvidas e as lições aprendidas com o decorrer da tarefa escolhida.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Meetings}
+
+Durante o decorrer desta atividade, foram realizadas três reuniões envolvendo o promotor e orientador da atividade, o Professor Rui Santos Cruz, e os três alunos inscritos na atividade. Descreve-se de seguida os aspetos e decisões mais relevantes de cada reunião.
 
 \subsection{Meeting 1}
 
@@ -79,17 +83,105 @@ Having this work finished, we have discussed with our client the status of our p
 The table of Scoring Rubrics (at the bottom of the first page of each Report) depends on the Report Type (ACTIVITY or LEARNINGS). Therefore, you must pay attention to have the correct table displayed when you select your Report Type in lines 21 or 22 of the \textbf{PP\_Report\_Preamble.tex} document. Failure to do so means that your Report WILL NOT BE ACCEPTED for evaluation.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Requirements}
 
+The functional requirements are the functionalities that will be directly used in the service requests, follow up and approval services, among others, necessary to the platform.
 
+\subsection{Functional Requirements}
+
+The functional requirements are the functionalities that will be directly used in the service requests, follow up and approval services, among others, necessary to the platform.
+
+\subsubsection{Back-office Login}
+
+Provide the users that have been previously registered in the system by the Administrator with the ability to login through the back-office. Having a session instantiated is paramount in order to manage the information available in the platform.
+
+\subsubsection{Activity Approval}
+
+The ability to approve Activities is essential to allow for moderation of the information that goes up on the platform. Such moderation is made by users that have permissions to do it.
+
+\subsubsection{Information Management}
+
+All information will be managed by the users that have the permission to do so, both Administrators or simply moderators with the sole responsibility of managing the platform information.
+
+\subsection{Non-Functional Requirements}
+
+These requirements aim to improve the quality of the system. Therefore an effort will be made to match the reliability and usability of the system to standards that meet the provided service requirements.
+
+\subsubsection{Usability}
+
+The system should be easily comprehensible and accessible to the end user. In order to achieve that, the different sections of the platform must be easily distinguishable and must have an intuitive naming. Furthermore the whole platform must tolerate user errors to improve stability.
+
+\subsubsection{Maintenance}
+
+The system must be built in a way that is easily maintained. Standards have been followed to assure that the maintenance of the system is easy and that, when necessary, further functionalities can be added to accommodate new requirements.
+
+
+\subsubsection{Portability}
+
+The system should be accessible through platforms that the end-users are accostumed to interacting with, i.e. it should be accessible through different environments (ex: Desktop browser, Mobile, etc).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Developments}
-\subsection{CENAS}
+
+This section describes the development process of this project throughout the semester. It explains how we started with the idea of creating a report hosting platform to the final result that we were able to obtain.
+
+\subsection{Prototyping}
+
+The first development stage is always the low fidelity prototyping. This is usually done on paper due to the flexibility of the medium and the low cost associated with it. In this stage the first prototypes were developed with the help of the client. This was achieved during the second meeting.
+After brainstorming several prototypes, we tried to reach the best possible solution. The devised solution had an activity list in the initial page with a maximum number of activities per page. At the foot of the page there would be numbering to allow the user to navigate through all the different pages with activities.
+
+At this stage we also concluded that the page menu should include:
+\begin{itemize}
+	\item Home;
+	\item Activities;
+	\item Entities.
+\end{itemize}
+
+We were able to easily define a basic structure of the project. Thus, we considered ourselves ready to start the development stage.
+
+\subsection{Main Developments}
+
+We started by analysing all the available tools for the development of a dynamic and interactive platform that were at our disposal. The available options were:
+
+- Native \ac{CMS}: A \ac{CMS} entirely developed by our team using one, or several, programing languages or frameworks. This option was quickly dismissed as there was no necessity of implementing a tool that already exists.
+
+- Drupal: An excellent \ac{CMS} with good performance. However we had no previous experience with the platform and the available documentation is scarce.
+
+- GitHub Pages: Being an option that provides a static solution and doesn't allow the creation of a back-office, this platform was considered a bad option.
+
+- WordPress: A simple and streamlined \ac{CMS} with good documentation on developing the kind of platforms that we intend to create. We considered this our best option for the development of Por2Folios.
+
+WordPress was our choice as it was the best option with the best cost/benefits ratio comparing with all the alternatives. After settling which \ac{CMS} to use we started an indepth analysis of the documentation in order to determinate which WordPress modules and functionalities we would need for the development of the Por2Folios platform.
+
+We used a WordPress native theme that we later altered, to better fit our necessities, by adding functionalities that were needed in the Front-End and by changing the overall look to better fit our initial prototype. The only plugin that was installed was a security plugin that limits the number of login tries, to comply with our security requirements.
+
+\clearpage
+
+\subsection{Final Developments}
+
+The first version of our platform works in several different devices, which makes it easily usable by all kinds of users. It was one of our main concerns to follow the basic usability and portability requirements of a web interface. Although it was a difficult task, the final result is extremely positive and rewarding. In Figure ~\ref{fig_browser} we can observe the Desktop version of the Por2Folios platform. The Mobile version of the platform can be observed in Figure ~\ref{fig_mobile}.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=1\linewidth]{desktop.png}
+\caption{Por2folios Platform Desktop Version}
+\label{fig_browser}
+\end{figure}
+
+
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=1\linewidth]{mobile}
+\caption{Por2folios Platform Mobile Version}
+\label{fig_mobile}
+\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Parte técnica}
+\section{Technical Development}
 For the Por2Folios platform implementation a fixed address machine was provided, hosted within the Virtual Machine of Instituto Superior Técnico. This machine was given to us, along with root accesses, with no restrictions of use whatsoever. The machine had 1Gb of Ram memory, 2Gb of virtual memory and 37Gb of storage capacity. The machine also had an out-of-date Ubunto distribution installed. To make the machine accessible we started by updating the Ubunto distribution to a more recent one (with Ubunto, the more recent the distribution, the more reliable and safer it is). Afterwards, we discussed what was the next step to take. Since we were working with a virtual machine to which we had no physical access, we decided to install a program to facilitate server management through the internet.  We used WebMin, to which access is made by the port 10000, enabling us to manage the server efficiently. This made server maintenance user friendly.
 
 We had previously discussed what would be the best platform to develop Por2Folios. After exploring several \ac{CMS}, we concluded that WordPress was the one that better fitted our requirements. This was done before having access to the provided machine so, initially, we got the server running on a private machine. With everything installed in the private machine we launched an Alpha version of the platform, tested some functionalities, and we were able to perform some basic operations.
@@ -100,26 +192,27 @@ After migrating, and to ensure security, an SSH Authentication access to the ser
 At the moment the platform is in Beta status. Next semester we hope we'll continue to develop the platform, adding more functionalities and further enhancing the user experience.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Figures}
-ADICINAR IMAGEM ? 
-\ref{fig_sim}:
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=1\linewidth]{soft_skills.png}
-\caption{The Soft-Skills Tree}
-\label{fig_sim}
-\end{figure}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Future Work}
 
+Iremos aqui falara no trabalho que deverá ser realizado no futuro ainda para mais tendo em conta que os elementos deste relatório irão todos fazer em conjunto uma evolução do projecto Por2folios.
+
+É necessário fazer toda a documentação da plataforma, desde um manual de utilizador até a relatórios de desenvolvimento dado que esta informação será util para grupos futuros que se queiram confrontar com este projecto.
+
+No que toca ao desenvolvimento é importante criar na plataforma uma forma de inserção standadr das actividades com entradas de tabelas predefinidas com os formatos pretendidos a serem impressos no Front-end. Esta feature será importante para o bom funcionamento da plataforma e muito provavelmente irá ser necessário aumentar a equipa para o desenvolvimento desta funcionalidade.
+
+Por fim será necessário integrar a plataforma com uma equipa que a irá gerir e como tal será feito um trabalho na ordem dos sistemas de informação que irão testar a integração deste processo nos meios informativos da UC PPIV.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{\IfLanguageName{english}{Conclusion}{Conclusão}}
-The conclusions. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
 
-Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+No inicio desta actividades dois alunos e um aluno mais tarde partiram para o desenvolvimento de uma plataforma que iria servir como pilar informativo das várias actividades passadas das cadeiras de Portfolio Pessoal. Desta forma os novos alunos poderiam  estimar que tipo de competências transversais são possíveis de obter em cada tipo de atividade. Apesar de poucos, mas bons, conseguimos concluir a tarefa dentro de uma estimativa de horas um pouco acima das previstas no entanto ao final do dia tínhamos o trabalho cumprido.
+
+Ainda existe muito trabalho para ser feito dentro deste projeto, começando por processar toda a informação dos documentos, tarefa essa em que seria interessante criar um classificador automático usando os mais diversos algoritmos de aprendizagem automática. Também tem de ser desenvolvida toda a infraestrutura de suporte a plataforma online, bem como a implementação da plataforma propriamente dita.
+
+A experiência adquirida no decorrer da leitura dos relatórios foi sem duvida uma adição preciosa ao nosso desenvolvimento pessoal. O acompanhamento e disponibilidade constante do professor permitiu que a atividade se desenrolasse fluidamente e sem problemas, em que cada membro do grupo conseguiu gerir o seu tempo da melhor forma.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % references section
 \bibliographystyle{IEEEtran}
@@ -136,13 +229,11 @@ Here I am. I am pursuing my Engineering studies at \ac{IST}. Starting my masters
 I am pursuing my Information Systems and Computer  Engineering studies at \ac{IST}. I am also a VIMMI collaborator at INESC-ID. Currently I am working in a StartUp project called Agroop and I am Founder \& Front-end Developer of opprDev a oppr Group organisation.
 \end{IEEEbiography}
 \begin{IEEEbiography}
-[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{me.png}}]{Nuno Sousa}
+[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{nuno.png}}]{Nuno Sousa}
 Here I am. I am pursuing my Engineering studies at \ac{IST}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 \end{IEEEbiography}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
-\onecolumn
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % *** DEFINITION OF ACRONYMS ***
@@ -152,6 +243,7 @@ Here I am. I am pursuing my Engineering studies at \ac{IST}. Lorem ipsum dolor s
 	\acrodef{HTTP}{Hypertext Transfer Protocol}
 	\acrodef{IST}{Instituto Superior Técnico}
 	\acrodef{INESC-ID}{Instituto de Engenharia de Sistemas e Computadores - Investigação e Desenvolvimento}
+	\acrodef{MEIC}{Mestrado em Engenharia Informática e de Computadores}
 	\acrodef{VIMMI}{Visualization and Intelligent Multimodal Interfaces}
 	\acrodef{LAN}{Local Area Network}
 	\acrodef{PC}{Personal Computer}
@@ -163,6 +255,11 @@ Here I am. I am pursuing my Engineering studies at \ac{IST}. Lorem ipsum dolor s
 	\acrodef{WLAN}{Wireless Local Area Network}
 	\acrodef{WWAN}{Wireless Wide Area Network}
 	\acrodef{WWW}{World Wide Web}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\onecolumn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
 % that's all folks
 \end{document}
