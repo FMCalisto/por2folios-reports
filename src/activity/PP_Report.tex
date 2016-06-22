@@ -86,103 +86,102 @@ The table of Scoring Rubrics (at the bottom of the first page of each Report) de
 
 \section{Requirements}
 
-Nesta secção iremos de forma resumida e elucidar como foi feito o levantamento dos requisitos da plataforma Por2folios. Esta secção contém informações importantes sobre as funcionalidades do protótipo a ser desenvolvido. Desta forma, serão abordadas definições iniciais dos requisitos do sistema que visa auxiliar o Professor, ou futuros alunos, no processo das características solicitadas para a plataforma. Pois, é de fundamental importância se obter uma boa compreensão das necessidades da plataforma Por2folios.
+The functional requirements are the functionalities that will be directly used in the service requests, follow up and approval services, among others, necessary to the platform.
 
-\subsection{Requisitos Funcionais}
+\subsection{Functional Requirements}
 
-Os requisitos funcionais do projeto são as funcionalidades que serão utilizadas diretamente no processo de solicitação de serviços, acompanhamento e aprovação dentre outros necessários à plataforma.
+The functional requirements are the functionalities that will be directly used in the service requests, follow up and approval services, among others, necessary to the platform.
 
 \subsubsection{Back-office Login}
 
-Proporcionar aos utilizadores pré-registados pelo Administrador fazerem login através do back-office. Estar com a sessão iniciada é um factor fundamental para gerir a informação da plataforma.
+Provide the users that have been previously registered in the system by the Administrator with the ability to login through the back-office. Having a session instantiated is paramount in order to manage the information available in the platform.
 
-\subsubsection{Aprovar Actividades}
+\subsubsection{Activity Approval}
 
-Aprovar as actividades inseridas neste caso é fundamental para que haja moderação do fluxo de informação da plataforma. Tal é moderado por utilizadores que tenham permissões para o fazer.
+The ability to approve Activities is essential to allow for moderation of the information that goes up on the platform. Such moderation is made by users that have permissions to do it.
 
-\subsubsection{Gerir Informação}
+\subsubsection{Information Management}
 
-Toda a informação será gerida por utilizadores que tenham permissões para o fazer, sejam eles administradores ou apenas moderadores com a responsabilidade de gerir informação da plataforma Por2folios.
+All information will be managed by the users that have the permission to do so, both Administrators or simply moderators with the sole responsibility of managing the platform information.
 
-\subsection{Requisitos Não-Funcionais}
+\subsection{Non-Functional Requirements}
 
-Estes requisitos visam ofertar e melhorar a qualidade do sistema. Neste sentido, haverá um esforço maior para que questões referentes à usabilidade e confiança do sistema sejam padronizadas e efetivamente adequadas ao serviço prestado.
+These requirements aim to improve the quality of the system. Therefore an effort will be made to match the reliability and usability of the system to standards that meet the provided service requirements.
 
-\subsubsection{Usabilidade}
+\subsubsection{Usability}
 
-O sistema deve ser de fácil compreensão e de fácil uso para o utilizador. Sendo assim, os campos disponíveis pela plataforma devem ser facilmente visíveis e com nomenclatura intuitiva e de boa leitura. Além disso, deve ter um certo nível de tolerância aos erros do utilizador.
+The system should be easily comprehensible and accessible to the end user. In order to achieve that, the different sections of the platform must be easily distinguishable and must have an intuitive naming. Furthermore the whole platform must tolerate user errors to improve stability.
 
-\subsubsection{Manutenção}
+\subsubsection{Maintenance}
 
-O sistema deve oferecer facilidade de ser mantido através de manutenções. Sendo assim, foram seguidos padrões durante a sua produção. Como também, garantir que novos requisitos sejam incluídos quando forem necessários.
+The system must be built in a way that is easily maintained. Standards have been followed to assure that the maintenance of the system is easy and that, when necessary, further functionalities can be added to accommodate new requirements.
 
-\subsubsection{Portabilidade}
 
-O sistema de ser capaz de ser acedido em plataformas que os seus utilizadores estejam habituados a utilizar. Ou seja, deve ter a capacidade de ser acedido em diferentes ambientes (ex: Browser, Mobile, etc...). 
+\subsubsection{Portability}
+
+The system should be accessible through platforms that the end-users are accostumed to interacting with, i.e. it should be accessible through different environments (ex: Desktop browser, Mobile, etc).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Developments}
 
-Esta secção descreve o desenvolvimento deste projeto ao longo do semestre, explicitando o fio condutor que leva desde a ideia inicial de criar uma plataforma com todos os relatórios ate resultados finais que conseguimos obter.
+This section describes the development process of this project throughout the semester. It explains how we started with the idea of creating a report hosting platform to the final result that we were able to obtain.
 
-\subsection{Prototipagem}
+\subsection{Prototyping}
 
-A primeira fase é sempre a de prototipagem de baixa fidelidade e em papel dado que os recursos são mais moldáveis e os custos bastante mais baixos do que passar logo para um desenvolvimento directo. Nesta fase foram feitos os primeiros protótipos em conjunto com o Professor Rui Cruz e na segunda reunião de grupo do projecto Por2folios Platform. Foi aqui que começamos por fazer os vários protótipos tentando compreender qual a melhor solução, sendo que a mesma passava por ter a lista de actividades logo na página inicial mas com um limite máximo de actividades exibidas por cada página, sendo que em baixo das mesmas estaria outra lista de números para o utilizador ir de página em página visualizar as várias actividades.
+The first development stage is always the low fidelity prototyping. This is usually done on paper due to the flexibility of the medium and the low cost associated with it. In this stage the first prototypes were developed with the help of the client. This was achieved during the second meeting.
+After brainstorming several prototypes, we tried to reach the best possible solution. The devised solution had an activity list in the initial page with a maximum number of activities per page. At the foot of the page there would be numbering to allow the user to navigate through all the different pages with activities.
 
-Na fase de prototipagem também concluímos o menu em questão sendo que o mesmo iria ter a seguinte lista de opções:
+At this stage we also concluded that the page menu should include:
+\begin{itemize}
+	\item Home;
+	\item Activities;
+	\item Entities.
+\end{itemize}
 
-- Home;
-
-- Activities;
-
-- Entities;
-
-Em suma, a estrutura básica do projecto ficou logo definida facilmente na fase de prototipagem como podemos concluir. Desta forma avançamos para a fase de desenvolvimento.
+We were able to easily define a basic structure of the project. Thus, we considered ourselves ready to start the development stage.
 
 \subsection{Main Developments}
 
-Nesta fase começamos por analisar todas as ferramentas ao nosso dispor para o desenvolvimento de uma plataforma dinâmica e interactiva. As opções que tínhamos foram as seguintes:
+We started by analysing all the available tools for the development of a dynamic and interactive platform that were at our disposal. The available options were:
 
-- \ac{CMS} Nativo: desenvolvido de raiz por nós através de uma, ou várias, linguagens de programação, ou frameworks. Verificou-se desde logo uma opção a não considerar.
+- Native \ac{CMS}: A \ac{CMS} entirely developed by our team using one, or several, programing languages or frameworks. This option was quickly dismissed as there was no necessity of implementing a tool that already exists.
 
-- Drupal: é um excelente CMS com uma optima prestação no entanto a documentação e a nossa experiência nesta plataforma não eram de todo o melhor.
+- Drupal: An excellent \ac{CMS} with good performance. However we had no previous experience with the platform and the available documentation is scarce.
 
-- GitHub Pages: dado ao facto de ser estático não seria de todo uma opção dado que desenvolver aqui um back-office seria algo não exequível.
+- GitHub Pages: Being an option that provides a static solution and doesn't allow the creation of a back-office, this platform was considered a bad option.
 
-- Wordpress: tem muita e boa documentação para a base que estamos a fazer e é de facto um CMS bastante simples, o que iria ajudar na sua implementação.
+- WordPress: A simple and streamlined \ac{CMS} with good documentation on developing the kind of platforms that we intend to create. We considered this our best option for the development of Por2Folios.
 
-Foi então escolhido o desenvolvimento da plataforma em Wordpress dado que tinha os melhores custos/benefícios comparativamente com os restantes CMS. A partir daqui começamos por perceber quais as componentes do Wordpress necessários para a plataforma Por2folios.
+WordPress was our choice as it was the best option with the best cost/benefits ratio comparing with all the alternatives. After settling which \ac{CMS} to use we started an indepth analysis of the documentation in order to determinate which WordPress modules and functionalities we would need for the development of the Por2Folios platform.
 
-Utilizamos um tema nativo que mais tarde alteramos e adicionamos alguns funções para as modificações que fizemos no Front-end. No que toca a plugins, instalamos apenas um plugin que limita o numero de tentativas de login efectuadas, para que esteja em conformidade com os requisitos de segurança.
+We used a WordPress native theme that we later altered, to better fit our necessities, by adding functionalities that were needed in the Front-End and by changing the overall look to better fit our initial prototype. The only plugin that was installed was a security plugin that limits the number of login tries, to comply with our security requirements.
 
 \clearpage
 
 \subsection{Final Developments}
 
-Os resultados finais da primeira versão desta plataforma onde os mesmos estão adaptados tanto para browser como para mobile. Na Figure 1 pode-se observar a versão Desktop da plataforma Por2folios.
+The first version of our platform works in several different devices, which makes it easily usable by all kinds of users. It was one of our main concerns to follow the basic usability and portability requirements of a web interface. Although it was a difficult task, the final result is extremely positive and rewarding. In Figure ~\ref{fig_browser} we can observe the Desktop version of the Por2Folios platform. The Mobile version of the platform can be observed in Figure ~\ref{fig_mobile}.
 
 \begin{figure}[htb]
 \centering
 \includegraphics[width=1\linewidth]{desktop.png}
 \caption{Por2folios Platform Desktop Version}
-\label{fig_sim}
+\label{fig_browser}
 \end{figure}
 
-A plataforma é responsive para que consiga ser lida e acedida via ambientes mobile para facilitar o acesso à mesma. Esta versão mobile pode ser vista na Figure 2.
+
 
 \begin{figure}[htb]
 \centering
 \includegraphics[width=1\linewidth]{mobile}
 \caption{Por2folios Platform Mobile Version}
-\label{fig_sim}
+\label{fig_mobile}
 \end{figure}
-
-Assim se pode observar a nossa preocupação em haver e cumprir os requisitos básicos de usabilidade e portabilidade de uma interface web. Apesar de um grande trabalho em desenvolver para ambos os ambientes e para ambas as plataformas o resultado final é de facto compensador.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Parte técnica}
+\section{Technical Development}
 For the Por2Folios platform implementation a fixed address machine was provided, hosted within the Virtual Machine of Instituto Superior Técnico. This machine was given to us, along with root accesses, with no restrictions of use whatsoever. The machine had 1Gb of Ram memory, 2Gb of virtual memory and 37Gb of storage capacity. The machine also had an out-of-date Ubunto distribution installed. To make the machine accessible we started by updating the Ubunto distribution to a more recent one (with Ubunto, the more recent the distribution, the more reliable and safer it is). Afterwards, we discussed what was the next step to take. Since we were working with a virtual machine to which we had no physical access, we decided to install a program to facilitate server management through the internet.  We used WebMin, to which access is made by the port 10000, enabling us to manage the server efficiently. This made server maintenance user friendly.
 
 We had previously discussed what would be the best platform to develop Por2Folios. After exploring several \ac{CMS}, we concluded that WordPress was the one that better fitted our requirements. This was done before having access to the provided machine so, initially, we got the server running on a private machine. With everything installed in the private machine we launched an Alpha version of the platform, tested some functionalities, and we were able to perform some basic operations.
@@ -230,9 +229,11 @@ Here I am. I am pursuing my Engineering studies at \ac{IST}. Starting my masters
 I am pursuing my Information Systems and Computer  Engineering studies at \ac{IST}. I am also a VIMMI collaborator at INESC-ID. Currently I am working in a StartUp project called Agroop and I am Founder \& Front-end Developer of opprDev a oppr Group organisation.
 \end{IEEEbiography}
 \begin{IEEEbiography}
-[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{me.png}}]{Nuno Sousa}
+[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{nuno.png}}]{Nuno Sousa}
 Here I am. I am pursuing my Engineering studies at \ac{IST}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 \end{IEEEbiography}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % *** DEFINITION OF ACRONYMS ***
