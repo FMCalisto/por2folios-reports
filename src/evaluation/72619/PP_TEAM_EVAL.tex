@@ -1,0 +1,102 @@
+\documentclass[12pt,a4paper]{article}
+%
+% AUTHOR: Prof. RUI SANTOS CRUZ
+%
+\usepackage{helvet} 
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{a4wide}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SELECT ONE OF THE FOLLOWING PACKAGES FOR THE LANGUAGE 
+\usepackage[english]{babel}
+% \usepackage[portuges]{babel}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage[absolute]{textpos}
+\usepackage{tabularx} 
+\usepackage{tabulary}                 
+\usepackage{fancyhdr}
+\usepackage[table]{xcolor}
+\pagestyle{fancy}
+\headsep=50pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PLEASE FILL THE ADEQUATE DATA IN THE TABLE REPLACING
+% THE VALUES EXEMPLIFIED
+\lhead{}
+\fancyhead[C]{\begin{tabularx}{1.0\textwidth}{|l|X|l|l|}
+\hline 
+% In the following line change Course Name: PPIII, PPB
+\textbf{PPIV} & \textbf{EVALUATION OF TEAM MEMBERS} & \textbf{Date:}  &  June 25, 2016 \\ 
+\hline
+% In the following line insert your Name and IST ID
+\multicolumn{2}{|l|}{Bruno Cardoso} & \textbf{IST ID:} &  ist172619 \\ 
+\hline
+% In the following line insert the Activity CODE and Title (abridged)
+%\textbf{WP n.} (99) & (Subject) & \textbf{Group:} & (99) \\
+\multicolumn{2}{|l|}{Por2folios Platform} & \textbf{Act. ID:} & Por2folios \\ 
+\hline
+\end{tabularx}}
+\rhead{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DO NOT CHANGE THIS BLOCK
+\begin{document}
+\textblockorigin{-18pt}{-2pt}
+\begin{textblock*}{10cm}(2cm,1cm)
+\includegraphics[width=6cm]{IST_C_RGB_POS-01-CROP.jpg}
+\end{textblock*}
+
+% YOUR TEXT STARTS HERE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+\section{My Evaluation of Team Members}          
+\begin{table*}[htp]
+\footnotesize
+\centering
+\begin{tabulary}{\linewidth}{|L|L|l|}
+\hline
+\cellcolor{blue!25}Identification & \cellcolor{blue!25}Strenghts & \cellcolor{blue!25}Ratings \\
+\hline
+Bruno Cardoso & Ease of communication with the client, I am more keen  on developing server side solutions, and setting up a machine to be handled as per client requests.& excellent \\
+\hline
+70916 - Francisco Calisto & The man behind every interface, Calisto is the best, from a simple website, to a whole platform with several functionalities, they all easily blend together by Francisco.& excellent \\
+\hline
+Nuno Sousa - 73216 & A very good colleague, and a hard working team member. Nuno arrived at our group mid semester, but was capable of handling the project and his tasks.& excellent \\
+\hline
+
+\end{tabulary}
+\label{tab:team}
+\end{table*}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DO NOT CHANGE THIS BLOCK 
+\newpage 
+\textblockorigin{-18pt}{-2pt}
+\begin{textblock*}{10cm}(2cm,1cm)
+\includegraphics[width=6cm]{IST_C_RGB_POS-01-CROP.jpg}
+\end{textblock*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{My Evaluation of the Team as a Whole} 
+On a scale from 1 to 5, where \textbf{1}=poor quality and \textbf{5}=excellent:
+
+\begin{table*}[htp]
+\footnotesize
+\centering
+\begin{tabulary}{\linewidth}{|L|c|}
+\hline
+\cellcolor{blue!25}Evaluation Rubric & \cellcolor{blue!25}Value \\
+\hline
+Rate the degree to which your team has succeeded in adhering to the processes of design, collaboration, meetings, and communication & 5 \\ % replace \# by rate value
+\hline
+Rate the degree to which your team has succeeded in completing the
+team assignments and objectives & 5 \\ % replace \# by rate value
+\hline
+Rate the quality of the deliverables produced by the team & 5 \\ % replace \# by rate value
+\hline
+\end{tabulary}
+\label{tab:team1}
+\end{table*}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% YOUR TEXT ENDS HERE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\end{document}                             % The required last line
