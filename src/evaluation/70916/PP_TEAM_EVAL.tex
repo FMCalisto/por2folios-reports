@@ -1,0 +1,142 @@
+\documentclass[12pt,a4paper]{article}
+%
+% AUTHOR: Prof. RUI SANTOS CRUZ
+%
+\usepackage{helvet} 
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{a4wide}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SELECT ONE OF THE FOLLOWING PACKAGES FOR THE LANGUAGE 
+\usepackage[english]{babel}
+% \usepackage[portuges]{babel}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage[absolute]{textpos}
+\usepackage{tabularx} 
+\usepackage{tabulary}                 
+\usepackage{fancyhdr}
+\usepackage[table]{xcolor}
+\pagestyle{fancy}
+\headsep=50pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PLEASE FILL THE ADEQUATE DATA IN THE TABLE REPLACING
+% THE VALUES EXEMPLIFIED
+\lhead{}
+\fancyhead[C]{\begin{tabularx}{1.0\textwidth}{|l|X|l|l|}
+\hline 
+% In the following line change Course Name: PPIII, PPB
+\textbf{PPIII} & \textbf{EVALUATION OF TEAM MEMBERS} & \textbf{Date:}  &  \today \\ 
+\hline
+% In the following line insert your Name and IST ID
+\multicolumn{2}{|l|}{Student Name} & \textbf{IST ID:} &  ist999999 \\ 
+\hline
+% In the following line insert the Activity CODE and Title (abridged)
+%\textbf{WP n.} (99) & (Subject) & \textbf{Group:} & (99) \\
+\multicolumn{2}{|l|}{Activity Title} & \textbf{Act. ID:} & O1415Tnxxx \\ 
+\hline
+\end{tabularx}}
+\rhead{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DO NOT CHANGE THIS BLOCK
+\begin{document}
+\textblockorigin{-18pt}{-2pt}
+\begin{textblock*}{10cm}(2cm,1cm)
+\includegraphics[width=6cm]{IST_C_RGB_POS-01-CROP.jpg}
+\end{textblock*}
+
+
+%\section*{INSTRUCTIONS}
+\section*{Instructions: For each team member, including yourself}
+
+\begin{description}
+\footnotesize
+\item{\textbf{rating}} -- rate the degree to which each member fulfilled his/her responsibilities in completing the team assignments according to the adjectives listed in Table~\ref{tab:ratings}.
+\item{\textbf{star \& support}} -- identify at least ``one strength'' that you attribute to this team member in light of his/her work and briefly support your rating (with a comment).
+\end{description}
+
+\begin{table}[htdp]
+\caption{Team Member Ratings}
+\footnotesize
+\centering
+\begin{tabular}{|l|l|}
+\hline
+excellent & Consistently carried more than his/her fair share of the workload. \\
+\hline
+very good & Consistently did what he/she was supposed to do, very well prepared and cooperative. \\
+\hline
+satisfactory & Usually did what he/she was supposed to do, acceptably prepared and cooperative. \\
+\hline
+ordinary & Often did what he/she was supposed to do, minimally prepared and cooperative. \\
+\hline
+marginal & Sometimes failed to show up or complete assignments, rarely prepared. \\
+\hline
+deficient & Often failed to show up or complete assignments, rarely prepared. \\
+\hline
+unsatisfactory & Consistently failed to show up or complete assignments, unprepared. \\
+\hline
+superficial & Practically no participation. \\
+\hline
+no show & No participation at all.\\
+\hline
+\end{tabular}
+\label{tab:ratings}
+\end{table}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% YOUR TEXT STARTS HERE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+\section{My Evaluation of Team Members}          
+\begin{table*}[htdp]
+\footnotesize
+\centering
+\begin{tabulary}{\linewidth}{|L|L|l|}
+\hline
+\cellcolor{blue!25}Identification & \cellcolor{blue!25}Strenghts & \cellcolor{blue!25}Ratings \\
+\hline
+(your Name in this cell) & Donec vitae velit. Suspendisse porta fermentum mauris. Ut vel nunc non mauris pharetra varius. Duis consequat libero quis urna. Maecenas at ante. & \\
+\hline
+(other team member Name and ID here) & Donec vitae velit. Suspendisse porta fermentum mauris. Ut vel nunc non mauris pharetra varius. Duis consequat libero quis urna. Maecenas at ante. & \\
+
+\hline
+(other team member Name and ID here) & Donec vitae velit. Suspendisse porta fermentum mauris. Ut vel nunc non mauris pharetra varius. Duis consequat libero quis urna. Maecenas at ante. & \\
+\hline
+(other team member Name and ID here) & Donec vitae velit. Suspendisse porta fermentum mauris. Ut vel nunc non mauris pharetra varius. Duis consequat libero quis urna. Maecenas at ante. & \\
+\hline
+\end{tabulary}
+\label{tab:team}
+\end{table*}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DO NOT CHANGE THIS BLOCK 
+\newpage 
+\textblockorigin{-18pt}{-2pt}
+\begin{textblock*}{10cm}(2cm,1cm)
+\includegraphics[width=6cm]{IST_C_RGB_POS-01-CROP.jpg}
+\end{textblock*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{My Evaluation of the Team as a Whole} 
+On a scale from 1 to 5, where \textbf{1}=poor quality and \textbf{5}=excellent:
+
+\begin{table*}[htdp]
+\footnotesize
+\centering
+\begin{tabulary}{\linewidth}{|L|c|}
+\hline
+\cellcolor{blue!25}Evaluation Rubric & \cellcolor{blue!25}Value \\
+\hline
+Rate the degree to which your team has succeeded in adhering to the processes of design, collaboration, meetings, and communication & \# \\ % replace \# by rate value
+\hline
+Rate the degree to which your team has succeeded in completing the
+team assignments and objectives & \# \\ % replace \# by rate value
+\hline
+Rate the quality of the deliverables produced by the team & \# \\ % replace \# by rate value
+\hline
+\end{tabulary}
+\label{tab:team1}
+\end{table*}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% YOUR TEXT ENDS HERE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\end{document}                             % The required last line
