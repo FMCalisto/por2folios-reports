@@ -74,10 +74,12 @@ Thus, during our second meeting we were able to discuss with our client the stat
 
 \subsection{Meeting 3}
 
+
 This final meeting was the shortest one, as it was an unscheduled one. We got to meet our colleague Nuno, which we integrated on our team. We also discussed the next steps, and included Nuno on every decision and planning. Also, the new "tags" feature was discussed during this meeting.
 Regarding the server, we had the opportunity to show the client the platform running in the final server.
 As a final note, the only technical glitch to be solved at the end of this meeting was to connect the VM's IP to the final domain.
 (por2folios.tecnico.ulisboa.pt)
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -127,6 +129,7 @@ This section describes the development process of this project throughout the se
 \subsection{Prototyping}
 
 The first development stage is always the low fidelity prototyping. This is usually done on paper due to the flexibility of the medium and the low cost associated with it. In this stage the first prototypes were developed with the help of the client. This was achieved during the second meeting.
+
 After brainstorming several prototypes, we tried to reach the best possible solution. The devised solution had an activity list in the initial page with a maximum number of activities per page. At the foot of the page there would be numbering to allow the user to navigate through all the different pages with activities.
 
 At this stage we also concluded that the page menu should include:
@@ -142,23 +145,23 @@ We were able to easily define a basic structure of the project. Thus, we conside
 
 We started by analysing all the available tools for the development of a dynamic and interactive platform that were at our disposal. The available options were:
 
-- Native \ac{CMS}: A \ac{CMS} entirely developed by our team using one, or several, programing languages or frameworks. This option was quickly dismissed as there was no necessity of implementing a tool that already exists.
+- Native \ac{CMS}: A \ac{CMS} [1] entirely developed by our team using one, or several, programing languages or frameworks. This option was quickly dismissed as there was no necessity of implementing a tool that already exists.
 
-- Drupal: An excellent \ac{CMS} with good performance. However we had no previous experience with the platform and the available documentation is scarce.
+- Drupal: An excellent \ac{CMS} [1] with good performance. However we had no previous experience with the platform and the available documentation is scarce.
 
 - GitHub Pages: Being an option that provides a static solution and doesn't allow the creation of a back-office, this platform was considered a bad option.
 
-- WordPress: A simple and streamlined \ac{CMS} with good documentation on developing the kind of platforms that we intend to create. We considered this our best option for the development of Por2Folios.
+- WordPress: A simple and streamlined \ac{CMS} [1] with good documentation on developing the kind of platforms that we intend to create. We considered this our best option for the development of Por2Folios.
 
-WordPress was our choice as it was the best option with the best cost/benefits ratio comparing with all the alternatives. After settling which \ac{CMS} to use we started an in-depth analysis of the documentation in order to determinate which WordPress modules and functionalities we would need for the development of the Por2Folios platform.
+WordPress [8] was our choice as it was the best option with the best cost/benefits ratio comparing with all the alternatives. After settling which \ac{CMS} to use we started an in-depth analysis of the documentation in order to determinate which WordPress modules and functionalities we would need for the development of the Por2Folios platform [7].
 
-We used a WordPress native theme that we later altered, to better fit our necessities, by adding functionalities that were needed in the Front-End and by changing the overall look to better fit our initial prototype. The only plugin that was installed was a security plugin that limits the number of login tries, to comply with our security requirements.
+We used a WordPress [8] native theme that we later altered, to better fit our necessities, by adding functionalities that were needed in the Front-End and by changing the overall look to better fit our initial prototype. The only plugin that was installed was a security plugin that limits the number of login tries, to comply with our security requirements.
 
 \clearpage
 
 \subsection{Final Developments}
 
-The first version of our platform works in several different devices, which makes it easily usable by all kinds of users. It was one of our main concerns to follow the basic usability and portability requirements of a web interface. Although it was a difficult task, the final result is extremely positive and rewarding. In Figure ~\ref{fig_browser} we can observe the Desktop version of the Por2Folios platform. The Mobile version of the platform can be observed in Figure ~\ref{fig_mobile}.
+The first version of our platform works in several different devices, which makes it easily usable by all kinds of users. It was one of our main concerns to follow the basic usability and portability requirements of a web interface. Although it was a difficult task, the final result is extremely positive and rewarding. In Figure ~\ref{fig_browser} we can observe the Desktop version of the Por2Folios platform [7]. The Mobile version of the platform can be observed in Figure ~\ref{fig_mobile}.
 
 \begin{figure}[htb]
 \centering
@@ -179,12 +182,12 @@ The first version of our platform works in several different devices, which make
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Technical Development}
-For the Por2Folios platform implementation a fixed address machine was provided, hosted within the Virtual Machine of Instituto Superior Técnico. This machine was given to us, along with root accesses, with no restrictions of use whatsoever. The machine had 1Gb of Ram memory, 2Gb of virtual memory and 37Gb of storage capacity. The machine also had an out-of-date Ubuntu distribution installed. To make the machine accessible we started by updating the Ubuntu distribution to a more recent one (with Ubuntu, the more recent the distribution, the more reliable and safer it is). Afterwards, we discussed what was the next step to take. Since we were working with a virtual machine to which we had no physical access, we decided to install a program to facilitate server management through the internet.  We used WebMin, to which access is made by the port 10000, enabling us to manage the server efficiently. This made server maintenance user friendly.
+For the Por2Folios platform [7] implementation a fixed address machine was provided, hosted within the Virtual Machine [4] of Instituto Superior Técnico. This machine was given to us, along with root accesses, with no restrictions of use whatsoever. The machine had 1Gb of Ram memory, 2Gb of virtual memory and 37Gb of storage capacity. The machine also had an out-of-date Ubuntu [2] distribution installed. To make the machine accessible we started by updating the Ubuntu distribution to a more recent one (with Ubuntu, the more recent the distribution, the more reliable and safer it is). Afterwards, we discussed what was the next step to take. Since we were working with a virtual machine to which we had no physical access, we decided to install a program to facilitate server management through the internet.  We used WebMin, to which access is made by the port 10000, enabling us to manage the server efficiently. This made server maintenance user friendly.
 
-We had previously discussed what would be the best platform to develop Por2Folios. After exploring several \ac{CMS}, we concluded that WordPress was the one that better fitted our requirements. This was done before having access to the provided machine so, initially, we got the server running on a private machine. With everything installed in the private machine we launched an Alpha version of the platform, tested some functionalities, and we were able to perform some basic operations.
+We had previously discussed what would be the best platform to develop Por2Folios [7]. After exploring several \ac{CMS} [1], we concluded that WordPress was the one that better fitted our requirements. This was done before having access to the provided machine so, initially, we got the server running on a private machine. With everything installed in the private machine we launched an Alpha version of the platform, tested some functionalities, and we were able to perform some basic operations.
 Having access and a port for server administration already installed in the provided machine, we then decided to migrate the WordPress from the private machine to the provided machine.
-Before migrating WordPress (or any kind of \ac{CMS} actually) we had to install a HTTP server. Yet again, to facilitate the maintenance process, we used a tool which is largely documented and supported in the internet -- the Apache HTTP Server. This tool is free, runs in Windows and Unix, and 2.4 is the latest stable release. 
-In order to store all the content, and to allow persistence associated with WordPress, we also had to implement a MySQL Database. Some changes were initially made to the MySql tables in order to integrate the DataBase with WordPress and, after migrating, some more changes were made to accommodate the change of domain associated with the migration to the Instituto Superior Técnico Domain.
+Before migrating WordPress (or any kind of \ac{CMS} [1] actually) we had to install a HTTP server. Yet again, to facilitate the maintenance process, we used a tool which is largely documented and supported in the internet -- the Apache HTTP Server. This tool is free, runs in Windows and Unix, and 2.4 is the latest stable release. 
+In order to store all the content, and to allow persistence associated with WordPress [8], we also had to implement a MySQL Database. Some changes were initially made to the MySql tables in order to integrate the DataBase with WordPress and, after migrating, some more changes were made to accommodate the change of domain associated with the migration to the Instituto Superior Técnico Domain.
 After migrating, and to ensure security, an SSH Authentication access to the server using SSH-KEYS was implemented. This method becomes way more reliable by having the public passwords of users associated to the user account on the server. However, in order to facilitate access to future users, and to facilitate further maintenance, we continue to support the login with username and password. Both methods are currently supported.
 At the moment the platform is in Beta status. Next semester we hope we'll continue to develop the platform, adding more functionalities and further enhancing the user experience.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -196,7 +199,7 @@ At the moment the platform is in Beta status. Next semester we hope we'll contin
 Finally, we shall discuss the work that still needs to be done to conclude the Por2Folios project. Considering that we intend to participate in this activity in the next Portfolio course, these will be our objectives for the next semester.
 The work we did on the platform throughout this semester still needs to be documented. This includes the creation of a user’s manual to help introduce the platform to new users, and to create development reports which can help other developers who may intend to work on the platform.
 
-Development wise, the input of new activities still needs to be standardized into the platform in order to use predefined entries and layout. This will allow the activities to correctly appear in the front-end. Furthermore, this feature is considered to be extremely important so that the correct functioning of the platform is guaranteed. To implement this, we will likely require a bigger development team.
+Development wise, the input of new activities still needs to be standardized into the platform in order to use predefined entries and layout so that they appear correctly in the Front-End [3]. This will allow the activities to correctly appear in the front-end. Furthermore, this feature is considered to be extremely important so that the correct functioning of the platform is guaranteed. To implement this, we will likely require a bigger development team.
 Lastly, we will need to bring a new team, from the Taguspark campus, on board with the project. This team will be in charge of managing the platform. As such, they have to be introduced to the platform, its functionalities and inner workings.
 
 
@@ -211,19 +214,71 @@ There still are many improvements to be made in this project, such as the proces
 The experience acquired while setting up the platform is without a doubt a valuable addition to our personal development. The guidance and availability of professor Rui Cruz enabled the activity to develop effortlessly and without major problems, and allowed each member of the team to efficiently manage his time.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography
+\begin{thebibliography}{9}
+%\bibitem{latexcompanion} 
+%Michel Goossens, Frank Mittelbach, and Alexander Samarin. 
+%\textit{The \LaTeX\ Companion}. 
+%Addison-Wesley, Reading, Massachusetts, 1993.
+% 
+%\bibitem{einstein} 
+%Albert Einstein. 
+%\textit{Zur Elektrodynamik bewegter K{\"o}rper}. (German) 
+%[\textit{On the electrodynamics of moving bodies}]. 
+%Annalen der Physik, 322(10):891–921, 1905.
+ 
+\bibitem{wikipedia}
+Wikipedia: Content management system, (on 23/06/2016)
+\\\texttt{https://en.wikipedia.org/wiki/Content\_management\_system}
+
+\bibitem{wikipedia}
+Wikipedia: Ubuntu (operating system), (on 23/06/2016)
+\\\texttt{https://en.wikipedia.org/wiki/Ubuntu\_(operating\_system)}
+
+\bibitem{wikipedia}
+Wikipedia: Front-end web development, (on 23/06/2016)
+\\\texttt{https://en.wikipedia.org/wiki/Front-end\_web\_development}
+
+\bibitem{wikipedia}
+Wikipedia: Virtual machine, (on 23/06/2016)
+\\\texttt{https://en.wikipedia.org/wiki/Virtual\_machine}
+
+\bibitem{inesc-id}
+INESC-ID: Visualization and Intelligent Multimodal Interfaces, (on 23/06/2016)
+\\\texttt{https://vimmi.inesc-id.pt/}
+
+\bibitem{inesc-id}
+INESC-ID: Home, (on 23/06/2016)
+\\\texttt{http://www.inesc-id.pt/}
+
+\bibitem{tecnico}
+IST: Por2folios Platform, (on 23/06/2016)
+\\\texttt{http://por2folios.tecnico.ulisboa.pt/}
+
+\bibitem{wordpress}
+Wordpress: Home, (on 23/06/2016)
+\\\texttt{https://wordpress.org/}
+
+\end{thebibliography}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % references section
 \bibliographystyle{IEEEtran}
 %\bibliography{PP_Report_bib}
-\bibliography{Mendeley}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % biography section
 % 
 \begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{bruno.png}}]{Bruno Cardoso}
-Here I am. I am pursuing my Engineering studies at \ac{IST}. Starting my masters in Interaction and Visualization, and also on business systems. On my "spare" time, I am also developing a project at INESC-ID, at VIMMI.
+Here I am. I am pursuing my Engineering studies at \ac{IST}. Starting my masters in Interaction and Visualization [5], and also on business systems. On my "spare" time, I am also developing a project at INESC-ID [6], at VIMMI.
 \end{IEEEbiography}
 \begin{IEEEbiography}
 [{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{francisco.png}}]{Francisco Maria Calisto}
-I am pursuing my Information Systems and Computer  Engineering studies at \ac{IST}. I am also a VIMMI collaborator at INESC-ID. Currently I am working in a StartUp project called Agroop and I am Founder \& Front-end Developer of opprDev a oppr Group organisation.
+I am pursuing my Information Systems and Computer  Engineering studies at \ac{IST}. I am also a VIMMI [5] collaborator at INESC-ID [6]. Currently I am working in a StartUp project called Agroop and I am Founder \& Front-end Developer of opprDev a oppr Group organisation.
 \end{IEEEbiography}
 \begin{IEEEbiography}
 [{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{nuno.png}}]{Nuno Sousa}

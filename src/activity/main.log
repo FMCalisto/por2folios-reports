@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.22)  23 JUN 2016 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.22)  23 JUN 2016 22:45
 entering extended mode
 **./main.tex
 (main.tex
@@ -939,7 +939,20 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks39
 \AP@partial=\box40
 \AP@footins=\box41
-))) (main.aux)
+))) (main.aux
+
+LaTeX Warning: Label `wikipedia' multiply defined.
+
+
+LaTeX Warning: Label `wikipedia' multiply defined.
+
+
+LaTeX Warning: Label `wikipedia' multiply defined.
+
+
+LaTeX Warning: Label `inesc-id' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -1047,98 +1060,127 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 92.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 94.
  [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 134.
+(Font)              <12> on input line 137.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 134.
+(Font)              <8> on input line 137.
 Package acronym Info: Label `acro:CMS' newly defined as it shall be overridden
-although it is yet undefined on input line 145.
+although it is yet undefined on input line 148.
 
-Underfull \hbox (badness 5446) in paragraph at lines 145--146
+Underfull \hbox (badness 5446) in paragraph at lines 148--149
 []\OT1/ppl/m/n/12 - Na-tive [][]Con-tent Man-age-ment Sys-tems
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 157.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 160.
 [3] <desktop.png, id=25, 1445.4pt x 774.895pt>
 File: desktop.png Graphic file (type png)
  <use desktop.png>
-Package pdftex.def Info: desktop.png used on input line 165.
+Package pdftex.def Info: desktop.png used on input line 168.
 (pdftex.def)             Requested size: 252.0pt x 135.10022pt.
 
 <mobile.png, id=27, 752.8125pt x 1288.815pt>
 File: mobile.png Graphic file (type png)
  <use mobile.png>
-Package pdftex.def Info: mobile.png used on input line 174.
+Package pdftex.def Info: mobile.png used on input line 177.
 (pdftex.def)             Requested size: 252.0pt x 431.4263pt.
 
 Underfull \vbox (badness 1253) has occurred while \output is active []
 
  [4
 
- <./desktop.png> <./mobile.png>]
-No file main.bbl.
-[5] <bruno.png, id=35, 1432.35126pt x 1432.35126pt>
+ <./desktop.png> <./mobile.png>] [5]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 236.
+
+
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (61.49359pt too wide) in paragraph at lines 235--237
+\OT1/pcr/m/n/9 https://en.wikipedia.org/wiki/Content_management_system 
+ []
+
+
+Overfull \hbox (61.49359pt too wide) in paragraph at lines 239--241
+\OT1/pcr/m/n/9 https://en.wikipedia.org/wiki/Ubuntu_(operating_system) 
+ []
+
+
+Overfull \hbox (61.49359pt too wide) in paragraph at lines 243--245
+\OT1/pcr/m/n/9 https://en.wikipedia.org/wiki/Front-end_web_development 
+ []
+
+
+Overfull \hbox (7.49365pt too wide) in paragraph at lines 247--249
+\OT1/pcr/m/n/9 https://en.wikipedia.org/wiki/Virtual_machine 
+ []
+
+<bruno.png, id=35, 1432.35126pt x 1432.35126pt>
 File: bruno.png Graphic file (type png)
  <use bruno.png>
-Package pdftex.def Info: bruno.png used on input line 221.
+Package pdftex.def Info: bruno.png used on input line 276.
 (pdftex.def)             Requested size: 72.25557pt x 72.25557pt.
 File: bruno.png Graphic file (type png)
 
 <use bruno.png>
-Package pdftex.def Info: bruno.png used on input line 221.
+Package pdftex.def Info: bruno.png used on input line 276.
 (pdftex.def)             Requested size: 72.25557pt x 72.25557pt.
 Package acronym Info: Label `acro:IST' newly defined as it shall be overridden
-although it is yet undefined on input line 222.
+although it is yet undefined on input line 277.
  <francisco.png, id=38, 355.3275pt x 358.33875pt>
 File: francisco.png Graphic file (type png)
 
 <use francisco.png>
-Package pdftex.def Info: francisco.png used on input line 225.
+Package pdftex.def Info: francisco.png used on input line 280.
 (pdftex.def)             Requested size: 72.26788pt x 72.88033pt.
 File: francisco.png Graphic file (type png)
  <use francisco.png>
-Package pdftex.def Info: francisco.png used on input line 225.
+Package pdftex.def Info: francisco.png used on input line 280.
 (pdftex.def)             Requested size: 72.26788pt x 72.88033pt.
 
 <nuno.png, id=41, 416.55624pt x 473.77pt>
 File: nuno.png Graphic file (type png)
  <use nuno.png>
-Package pdftex.def Info: nuno.png used on input line 229.
+Package pdftex.def Info: nuno.png used on input line 284.
 (pdftex.def)             Requested size: 72.26917pt x 82.1953pt.
 File: nuno.png Graphic file (type png)
  <use nuno.png>
-Package pdftex.def Info: nuno.png used on input line 229.
+Package pdftex.def Info: nuno.png used on input line 284.
 (pdftex.def)             Requested size: 72.26917pt x 82.1953pt.
 
 [6
 
- <./bruno.png> <./francisco.png> <./nuno.png>] (main.aux) ) ) 
+
+ <./bruno.png> <./francisco.png> <./nuno.png>] (main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) ) 
 Here is how much of TeX's memory you used:
- 15656 strings out of 493335
- 297338 string characters out of 3136677
- 378624 words of memory out of 3000000
- 18812 multiletter control sequences out of 15000+200000
- 51575 words of font info for 101 fonts, out of 3000000 for 9000
+ 15697 strings out of 493335
+ 297913 string characters out of 3136677
+ 378667 words of memory out of 3000000
+ 18848 multiletter control sequences out of 15000+200000
+ 52765 words of font info for 104 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 66i,21n,56p,995b,765s stack positions out of 5000i,500n,10000p,200000b,50000s
-{E:/Program Files 
-(x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<E:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><E:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr6.pfb><E:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy6.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy9.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/urw/helvetic/uhvb8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/hel
-vetic/uhvr8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
-vro8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pf
-b><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><E:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (6 pages, 683793 bytes).
+ 66i,21n,56p,1007b,713s stack positions out of 5000i,500n,10000p,200000b,50000s
+{E:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<E:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><E:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><E:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><E:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><E:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><E:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><E:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/urw/helvetic/uhvb8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/urw/helvetic/uhvr8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
+w/helvetic/uhvro8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palat
+ino/uplr8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
+i8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (6 pages, 697767 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
