@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.22)  23 JUN 2016 18:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.22)  23 JUN 2016 22:41
 entering extended mode
 **./main.tex
 (main.tex
@@ -1035,51 +1035,43 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <14> not available
 (Font)              Font shape `OT1/phv/b/sc' tried instead on input line 44.
-Package acronym Info: Label `acro:MEIC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 55.
-
-Underfull \hbox (badness 2970) in paragraph at lines 55--56
-[]\OT1/ppl/m/n/12 Todos os anos, dezenas de alunos dos
- []
-
-
-Underfull \hbox (badness 1565) in paragraph at lines 55--56
-[][]\OT1/ppl/m/n/12 Mestrado em En-gen-haria In-form[]atica e de
+Underfull \hbox (badness 1622) in paragraph at lines 55--56
+[]\OT1/ppl/m/n/12 Every year dozens of new stu-dents en-
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 65.
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 95.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 92.
  [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 137.
+(Font)              <12> on input line 134.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 137.
+(Font)              <8> on input line 134.
 Package acronym Info: Label `acro:CMS' newly defined as it shall be overridden
-although it is yet undefined on input line 148.
+although it is yet undefined on input line 145.
 
-Underfull \hbox (badness 5446) in paragraph at lines 148--149
+Underfull \hbox (badness 5446) in paragraph at lines 145--146
 []\OT1/ppl/m/n/12 - Na-tive [][]Con-tent Man-age-ment Sys-tems
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 160.
-[3] <desktop.png, id=26, 1445.4pt x 774.895pt>
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 157.
+[3] <desktop.png, id=25, 1445.4pt x 774.895pt>
 File: desktop.png Graphic file (type png)
  <use desktop.png>
-Package pdftex.def Info: desktop.png used on input line 168.
+Package pdftex.def Info: desktop.png used on input line 165.
 (pdftex.def)             Requested size: 252.0pt x 135.10022pt.
 
-<mobile.png, id=28, 752.8125pt x 1288.815pt>
+<mobile.png, id=27, 752.8125pt x 1288.815pt>
 File: mobile.png Graphic file (type png)
  <use mobile.png>
-Package pdftex.def Info: mobile.png used on input line 177.
+Package pdftex.def Info: mobile.png used on input line 174.
 (pdftex.def)             Requested size: 252.0pt x 431.4263pt.
 
 Underfull \vbox (badness 1253) has occurred while \output is active []
@@ -1087,81 +1079,66 @@ Underfull \vbox (badness 1253) has occurred while \output is active []
  [4
 
  <./desktop.png> <./mobile.png>]
-Underfull \hbox (badness 1852) in paragraph at lines 203--204
-[]\OT1/ppl/m/n/12 No que toca ao de-sen-volvi-mento []e im-
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 203--204
-\OT1/ppl/m/n/12 inser[][]ao stan-dadr das ac-tivi-dades com en-
- []
-
-
-Underfull \hbox (badness 2158) in paragraph at lines 214--215
-[]\OT1/ppl/m/n/12 A ex-peri[]encia adquirida no decor-rer da
- []
-
 No file main.bbl.
-<bruno.png, id=33, 1432.35126pt x 1432.35126pt>
+[5] <bruno.png, id=35, 1432.35126pt x 1432.35126pt>
 File: bruno.png Graphic file (type png)
  <use bruno.png>
-Package pdftex.def Info: bruno.png used on input line 224.
+Package pdftex.def Info: bruno.png used on input line 221.
 (pdftex.def)             Requested size: 72.25557pt x 72.25557pt.
 File: bruno.png Graphic file (type png)
 
 <use bruno.png>
-Package pdftex.def Info: bruno.png used on input line 224.
+Package pdftex.def Info: bruno.png used on input line 221.
 (pdftex.def)             Requested size: 72.25557pt x 72.25557pt.
 Package acronym Info: Label `acro:IST' newly defined as it shall be overridden
-although it is yet undefined on input line 225.
- [5 <./bruno.png>]
-<francisco.png, id=40, 355.3275pt x 358.33875pt>
-File: francisco.png Graphic file (type png)
- <use francisco.png>
-Package pdftex.def Info: francisco.png used on input line 228.
-(pdftex.def)             Requested size: 72.26788pt x 72.88033pt.
+although it is yet undefined on input line 222.
+ <francisco.png, id=38, 355.3275pt x 358.33875pt>
 File: francisco.png Graphic file (type png)
 
 <use francisco.png>
-Package pdftex.def Info: francisco.png used on input line 228.
+Package pdftex.def Info: francisco.png used on input line 225.
 (pdftex.def)             Requested size: 72.26788pt x 72.88033pt.
- <nuno.png, id=43, 416.55624pt x 473.77pt>
+File: francisco.png Graphic file (type png)
+ <use francisco.png>
+Package pdftex.def Info: francisco.png used on input line 225.
+(pdftex.def)             Requested size: 72.26788pt x 72.88033pt.
+
+<nuno.png, id=41, 416.55624pt x 473.77pt>
 File: nuno.png Graphic file (type png)
  <use nuno.png>
-Package pdftex.def Info: nuno.png used on input line 232.
+Package pdftex.def Info: nuno.png used on input line 229.
 (pdftex.def)             Requested size: 72.26917pt x 82.1953pt.
 File: nuno.png Graphic file (type png)
-
-<use nuno.png>
-Package pdftex.def Info: nuno.png used on input line 232.
+ <use nuno.png>
+Package pdftex.def Info: nuno.png used on input line 229.
 (pdftex.def)             Requested size: 72.26917pt x 82.1953pt.
- [6
 
- <./francisco.png> <./nuno.png>] (main.aux) ) ) 
+[6
+
+ <./bruno.png> <./francisco.png> <./nuno.png>] (main.aux) ) ) 
 Here is how much of TeX's memory you used:
- 15664 strings out of 493335
- 297410 string characters out of 3136677
- 379624 words of memory out of 3000000
- 18819 multiletter control sequences out of 15000+200000
- 52184 words of font info for 102 fonts, out of 3000000 for 9000
+ 15656 strings out of 493335
+ 297338 string characters out of 3136677
+ 378624 words of memory out of 3000000
+ 18812 multiletter control sequences out of 15000+200000
+ 51575 words of font info for 101 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 66i,20n,56p,995b,765s stack positions out of 5000i,500n,10000p,200000b,50000s
-{E:/Program Files (x86)/MiKTeX 2
-.9/fonts/enc/dvips/fontname/8r.enc}<E:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi6.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr6.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy6.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy9.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/
-uhvb8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.p
-fb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><E:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><E:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><E:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><E:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (6 pages, 698236 bytes).
+ 66i,21n,56p,995b,765s stack positions out of 5000i,500n,10000p,200000b,50000s
+{E:/Program Files 
+(x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<E:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><E:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr6.pfb><E:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy9.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/urw/helvetic/uhvb8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/hel
+vetic/uhvr8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
+vro8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pf
+b><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><E:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (6 pages, 683793 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
