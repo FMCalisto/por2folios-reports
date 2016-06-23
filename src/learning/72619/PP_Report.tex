@@ -28,7 +28,7 @@
 % The paper Abstract and Keywords
 \IEEEtitleabstractindextext{%
 \begin{abstract}
-The goal of this report is to describe and highlight every stage on the development of a platform called Po2folios, developed during the semester. The main goal on this platform is to showcase every project and report developed during previous editions of the Portfolio III and IV classes
+The goal of this report is to describe and highlight every stage on the development of a platform called Por2folios, developed during the semester. The main goal on this platform is to showcase every project and report developed during previous editions of the Portfolio III and IV classes
 \end{abstract}
 %
 \begin{IEEEkeywords}
@@ -62,6 +62,7 @@ For the first three to four weeks, I was aware that there was a platform to be d
 
 It was only after the first meeting with the team, along with Professor Rui Cruz, that we were able to establish what was to be developed. This included the platform layout, some required functionalities, an interface for the content managers, and also some general aspects.
 
+\newpage
 
 \section{Team Work}
 As explained before, the key element for a successful team work is communication. With this in mind, Calisto and I maintained a team work channel for this project. This included a Facebook Conversation, and a couple of presencial meetings at Técnico. 
@@ -75,12 +76,34 @@ I consider that this was a very successful project. For a start, we started work
 	After successfully setting up WebMin, simple tasks such as adding a user, or installing a new module on the server, or even redirecting to a specific incoming address is easily done online, anywhere. We are used to do this using a Secure Shell, but, to keep this platform user friendly, we have decided to follow this approach.
 	In the middle of this project, Nuno, our colleague, joined this project, and helped us develop the rest of the platform. He was also essencial for the release of our beta platform. The final TAGS feature, where one can associate one or more keywords to a portfolio project, was developed by Nuno. He was also responsible for adding the older keywords from previous years.
 	
+\section{The Platform}	
+As previously mencioned, the platform is on a Virtual Server on the new Tecnico VM Service. Although not relevant, this was handled by DSI Taguspark. This server, at the time of deilvery, includes Ubuntu 14.04.4 LTS, with about 37GB of memory (where only 5% of this is being used at this time).
+This machine has a static IP, where one can access using a browser or maybe by redirecting from a Domain. In our case, for the first 2 month of work, our way of accessing the server was using Secure Shell access (SSH). One of the first procedures, and, actually, a mandatory procedure every week, was to update our Ubuntu distro, as Canonical releases several security updates every week. For example, during development, our rate of updates was close to 10 per week(system and security updates).
+Another important tool for every systems administrator is to have a good shell, so, in order to ease up work, I installed ZSHELL, using the default apt-get Ubuntu provides. Then, using CURL, I did install OH-MY-ZSHELL, which inclides a very good set of commands and tools on the zshell profile.
+Then, there was the need to install WEBMIN, to configure the server using a web interface. This was easy to do, as there is a script to do most things automatically.
+Accessing webmin is as easy as accessing from a browser the "IP:10000" address. the first login may be using a root privileged account, or even your own username.
+In order to setup Wordpress on the machine, I setup an apache server, and a mysql server. 
+The first one is responsible for connecting a certain address, and the incoming requests from that address, to a certain folder inside the system (located on the /etc/). Apache even allows the user to select the first file to load on the webpage.
+The second tool is required in order to allocate every post and tag on the platform. Being WordPress a front-end and back-office content management System, to enable users to access the back-office, their login credencials must be already stored on the mysql database. The good part is that WordPress handles the database without user interaction, meaning that, creating a new user on the CMS, but not doing so on webmin will not be a problem, as I made sure that WordPress can access the database and Read/Write on it.
+After this initial setup, we did a lot of testing on the platform, making sure we could clear out any remaining bugs (and there were a few, as WordPress required some CHMOD on some server side files).
+Lastly, as I wanted to add extra security to our server , I added the ability to login on the server using SSH-Keys. These are generated on each computer, and the server is responsible for storing the public key for each user. When a user connects with a certain username, there is a check on each own's SSH-KEY, creating a new key from the server's private one and the client's public one. If this check, then access is granted to the user, else, there is a denial.
+On a top security system, the only way to login on a server is using a system like this one, but, for any user without an SSH-Key, this will not be the best solution. Thinking on these users, I though it would be a good idea to maintain both systems working, Non the less, I do recommend every user to add their ssh-key on their private home folder, as this method is safer and faster.
 	
 \section{Overall}
 Overall, this project was very fullfilling, as it helped us develop our technical skills regarding interfaces, server setup and maintenance. It was also responsible for the development of our soft skills, as we used them a lot during this project. For example, problem solving got easier when using these new soft skills.
 As a group, we all did a great job, as we maintained communication, and every decision was made as a group, with the consent of everyone.
-We did divide the work among the group, taking advantage of each member's skills on each feature of our platform.
+We did divide the work among the group, taking advantage of each member's skill on each feature of our platform.
+Before the alpha version of the platform, we have decided to create different prototypes of the platform, not only by adjusting the color scheme, but also by editing the different items on the platform. This included changing the index of the website. For example, WordPress usually handles publications by date, as the normal "blog" type. In our case, sorting everything by date was not the best option, and so, there are different categories  categories, either by using time, or 
+
+
+
 The final version of this platform is fully functional, with all the features we agreed on during the beginning of the semester. There is a front-end and a back-office, where we are able to create new users, and to add content. We can also grant admin access to these new users, and make them content managers.
+
+
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{\IfLanguageName{english}{Conclusion}{Conclusão}}
@@ -89,7 +112,7 @@ In conclusion, developing the Por2folios platfrom was only possible with the wor
 Overall, this project was very enriching, and it made me grow as a professional. By cooperating and with the ease of communication, my integration on the team was very successful, and even when our new team member Nuno joined us, the team was able to continue as before.
 
 The platform is available on its final address por2folios.tecnico.ulisboa.pt.
-We will continue maintaining this server, and, hopefully, start adding the older projects soon.
+We will continue to maintain this server, and, hopefully, start adding the older projects soon.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % use section* for acknowledgement
@@ -108,8 +131,9 @@ There will be more work next semester, and I do count on them to continue develo
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % biography section
 % 
+
 \begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{bruno.png}}]{Bruno Cardoso}
-Here I am. I am pursuing my Engineering studies at \ac{IST}. Starting my masters in Interaction and Visualization, and also on business systems. On my "spare" time, I am also developing a project at INESC-ID, at VIMMI.
+I am pursuing my Engineering studies at \ac{IST}. Starting my masters in Interaction and Visualization, and also on business systems. I am also working on a project at INESC-ID, at VIMMI, regarding social media analytics and effective ways to disseminate information. I am also at HackerSchool, as a collaborator, and a staff member for the following year.
 \end{IEEEbiography}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
