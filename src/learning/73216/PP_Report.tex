@@ -1,0 +1,150 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+%% PP_Report.tex
+%% V1.4
+%% 2015/11/30
+%% by Rui Santos Cruz
+%% This is a skeleton file using PPIEEEtran.cls
+%% (requires PPIEEEtran.cls) 
+% !TEX root = ./main.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,12pt,journal,twoside,compsoc]{PPIEEEtran}
+
+% -----------------------------------------------------------------------------
+% The Preamble document contains all the necessary Packages for typesetting
+% Modify it to suit your needs
+% -----------------------------------------------------------------------------
+\input{PP_Report_Preamble}
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+\begin{document}
+\input{PP_Report_Cover}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The paper Abstract and Keywords
+\IEEEtitleabstractindextext{%
+\begin{abstract}
+This report describes my experience with the development of the Por2Folios platform. It describes how I was introduced to the platform, how I was integrated in the development team and what I contributed to the platform. It contains some thoughts on what I learned with the experience and how it will affect me as a person. It also tries to give some insight on what to expect going forward with the platform development.
+\end{abstract}
+%
+\begin{IEEEkeywords}
+Place here, Keywords, example, \LaTeX, paper.
+\end{IEEEkeywords}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% make the title area
+\maketitle
+
+\IEEEdisplaynontitleabstractindextext
+\IEEEpeerreviewmaketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+% The very first letter is a 2 line initial drop letter followed
+% by the rest of the first word in caps (small caps for compsoc).
+% 
+% form to use if the first word consists of a single letter:
+% \IEEEPARstart{A}{demo} file is ....
+% 
+% Here we have the typical use of a "E" for an initial drop letter
+% and "STE" in caps to complete the first word.
+\IEEEPARstart{I}{n} this report I will describe my experiences while developing the Por2Folios platform. This was made as an activity for the portfolio IV course. This course tries to give students an opportunity to develop their \textit{soft-skills}. In order to do so, students choose from a plethora of activities that are presented and complete it during the semester.
+With this report I aim to describe what I have learned and what skills I developed or improved during the activity that I chose. %In doing such I expect to do stuffs.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Activity}
+At the start of the semester, students were provided with several activity proposals. After analyzing all of the possibilities one of them stood out to me. The Por2Folios platform development activity. Never before had I been involved with the creation of an online software platform, and, considering the importance of online platforms nowadays, I thought this was the perfect opportunity to participate in the development of such a platform. I applied for the activity and, thinking I would receive a response, I mistakingly awaited for it. After realizing I should take the initiative I reached out for Professor Rui Cruz to try and understand if the platform was still in development. The professor promptly introduced me to the rest of the development team in an impromptu meeting. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Meeting}
+In the  impromptu meeting arranged by the professor I was introduced to the development team. This team, composed of two students, already had an early prototype up and running. I was shown the platform current state, Figure ~\ref{fig_sim}, and given a quick report of what was done and what still needed to be developed and improved. I exchanged contacts with the rest of the team and from that point on we started discussing my integration in the team and what I was to develop in the platform.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=1\linewidth]{mobile.png}
+	\caption{The Platform}
+	\label{fig_sim}
+\end{figure}
+
+\section{The Developed Work} 
+After several meetings with the team I was able to understand what the platform requirements were, what had already been developed, what tools were used and what still needed to be done. Integration with the team was a challenging albeit smooth experience. Having no experience with development using \ac{CMS}, more specifically WordPress,  I had to catch up with what was already implemented and how it worked. In doing so I learned the inner workings and requirements of an online platform. After an adaptation period, where my colleagues helped me integrating with the team, I was tasked with the challenge of adding a large number of tags to the platform. This required me to do some research on methods of achieving such a task. The results of my research led me to believe that my task could be achieved in 2 ways:
+
+\begin{itemize}
+	\item Brute Force Method -- I could manually add the tags through the WordPress Admin interface. Doing so  required me to add each tag individually, which given the amount of tags to add would be a time consuming task.
+	\item Software Engineering Method -- Considering that WordPress provides an API for scripting that is vastly documented I could create a PHP script to create the necessary tag entries.
+\end{itemize}
+
+Despite having very little experience with PHP I decided to create the script to add the tags to the database. This would further my PHP knowledge along with giving me experience dealing with APIs. With a lot of research and the valuable help of my colleagues I was able to create the necessary script that iterated through the text file containing all the tags and added them to the WordPress Database. Due to constraints within the API, that does not allow directly adding tags, the script uses a work-around. This helped me develop my improvisation skills as it required me to think outside the box and get creative, having no clear way of adding the necessary tags.  It also required me to get to know the WordPress API which in turn help gave me new ideas to further develop the platform.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Learned Skills}
+There are several \textit{soft-skills} that an individual should try to develop. They are paramount in the day-to-day interactions with other people and help in achieving cooperation and communication. 
+
+During my activity I was forced out of my comfort zone and had to deal with tools that I had never used before. The help from my colleagues was invaluable in overcoming the difficulties and problems I faced. The work experience was really smooth considering that, as we later discovered, we are all part of \ac{INESC} so working together and meeting regularly was really easy. I improved my communication skills as well as my self-learning capabilities. The report itself introduced me to a powerful new tool, that will surely be of use in my work life, and allowed me to further develop my English writing skills.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\IfLanguageName{english}{Conclusion}{Conclusão}}
+This experience was definitely valuable for me as a person. I was able to develop new skills as well as improve skills I already had acquired. In the future I, along with the rest of the development team, intend to continue working on the Por2Folios platform. I believe the work we did and the platform we developed will be a valuable tool to the future students enrolled in the Portfolio course. As such I will strive to improve the platform as well as further improve my \textit{soft-skills}. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% use section* for acknowledgement
+\ifCLASSOPTIONcompsoc
+  % The Computer Society usually uses the plural form
+  \section*{\IfLanguageName{english}{Acknowledgments}{Agradecimentos}} % Acknowledgments
+\else
+  % regular IEEE prefers the singular form
+  \section*{Acknowledgment}
+\fi
+
+The authors would like to thank...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
+Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% references section
+\bibliographystyle{IEEEtran}
+%\bibliography{PP_Report_bib}
+\bibliography{Mendeley}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% biography section
+% 
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{me.png}}]{Name of Student One}
+Here I am. I am pursuing my Engineering studies at \ac{IST}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+\end{IEEEbiography}
+\begin{IEEEbiography}
+[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{me.png}}]{Name of Student Two}
+Here I am. I am pursuing my Engineering studies at \ac{IST}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+\end{IEEEbiography}
+\begin{IEEEbiography}
+[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{me.png}}]{Name of Student Three}
+Here I am. I am pursuing my Engineering studies at \ac{IST}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+\end{IEEEbiography}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\onecolumn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% *** DEFINITION OF ACRONYMS ***
+	\acrodef{VM}{Virtual Machine}
+	\acrodef{CMS}{Content Management System}
+	\acrodef{CPU}{Central Processing Unit}
+	\acrodef{GUI}{Graphical User Interface}
+	\acrodef{HTTP}{Hypertext Transfer Protocol}
+	\acrodef{IST}{Instituto Superior Técnico}	
+	\acrodef{LAN}{Local Area Network}
+	\acrodef{PC}{Personal Computer}
+	\acrodef{URL}{Uniform Resource Locator}
+	\acrodef{VoD}{Video-on-demand}
+	\acrodefplural{VoD}[VoDs]{Videos-on-demand}
+	\acrodef{VoIP}{Voice over IP}
+	\acrodef{WAN}{Wide Area Network}
+	\acrodef{WLAN}{Wireless Local Area Network}
+	\acrodef{WWAN}{Wireless Wide Area Network}
+	\acrodef{WWW}{World Wide Web}
+	
+% that's all folks
+\end{document}

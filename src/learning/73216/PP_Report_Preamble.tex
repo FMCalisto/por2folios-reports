@@ -1,0 +1,267 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+% Required Packages and commands
+% --> Please Choose the MAIN LANGUAGE for the document in package BABEL (below)
+% --> Please Choose the TYPE OF REPORT for the document in \ReportType (below)
+% !TEX root = ./main.tex
+% PP_Report_Preamble.tex
+% V1.4
+% 2015/11/30
+% by Rui Santos Cruz
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% *** INPUT LANGUAGE PACKAGES ***
+
+\usepackage[main=english,portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{iflang}
+
+% *** DEFINE THE TYPE OF REPORT ***
+\newcommand*{\ReportType}{learning}% Uncomment line for Learning Report
+%\newcommand*{\ReportType}{activity}% Uncomment line for Activity Report
+
+% *** ACRONYM PACKAGES ***
+% Put definition of Acronyms at the end of the document
+\usepackage[printonlyused,nolist]{acronym}
+
+% *** CITATION PACKAGES ***
+\usepackage{cite}
+
+% *** GRAPHICS RELATED PACKAGES ***
+\usepackage[pdftex]{graphicx}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+
+% *** MATH PACKAGES ***
+\usepackage[cmex10]{amsmath}
+
+% *** SPECIALIZED LIST PACKAGES ***
+\usepackage{algorithmic}
+
+% *** ALIGNMENT PACKAGES ***
+\usepackage{array}
+
+% *** SUBFIGURE PACKAGES ***
+\usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+
+% *** FLOAT PACKAGES ***
+\usepackage{fixltx2e}
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+\usepackage{url}
+
+% *** BACKGROUND Material ***
+\usepackage{eso-pic}
+\usepackage[
+  contents={},
+  opacity=1,
+  scale=1,
+  color=blue!90
+  ]{background}
+  
+% *** CONDITIONALS ***
+\usepackage{ifthen}
+
+% DEFINE COMMAND FOR: Report Type depending on language
+\newcommand{\tlangRepActivity}{\IfLanguageName{english}{Activity Report}{Relatório de Atividade}}
+\newcommand{\tlangRepLearning}{\IfLanguageName{english}{Learnings Report}{Relatório de Aprendizagens}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DEFINE COMMAND FOR: Report Scoring Table Type
+\newcommand{\lrScore}%
+{\setlength{\unitlength}{1mm}{% % selecting unit length 
+\fontfamily{phv}\selectfont
+\begin{picture}(171.6,20) % picture environment with the size (dimensions)
+% 32 length units wide, and 15 units high.
+\setlength\fboxsep{0pt}
+% Left Set with grading Scores
+\put(0,0){\fcolorbox{gray}{gray!20}{%
+          \framebox(15,4)[l]{\scriptsize{0.2-Weak}}}}
+\put(0,4){\fcolorbox{gray}{gray!20}{%
+          \framebox(15,4)[l]{\scriptsize{0.4-Fair}}}}
+\put(0,8){\fcolorbox{gray}{gray!20}{%
+          \framebox(15,4)[l]{\scriptsize{0.6-Good}}}}
+\put(0,12){\fcolorbox{gray}{gray!20}{%
+           \framebox(15,4)[l]{\scriptsize{0.8-V.Good}}}}
+\put(0,16){\fcolorbox{gray}{gray!20}{%
+           \framebox(15,4)[l]{\scriptsize{1.0-Excel}}}}
+% Left+1 Set with Learning Rubrics
+\put(16,0){\fcolorbox{cyan}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(28,0){\fcolorbox{cyan}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}          
+\put(40,0){\fcolorbox{cyan}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(52,0){\fcolorbox{cyan}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(64,0){\fcolorbox{cyan}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(16,12){\fcolorbox{cyan}{white}{%
+          \framebox(12,4)[c]{\tiny{Intro$\times 2$}}}}
+\put(28,12){\fcolorbox{cyan}{white}{%
+          \framebox(12,4)[c]{\tiny{Motiv$\times 2$}}}}          
+\put(40,12){\fcolorbox{cyan}{white}{%
+          \framebox(12,4)[c]{\tiny{Skills$\times 6$}}}}
+\put(52,12){\fcolorbox{cyan}{white}{%
+          \framebox(12,4)[c]{\tiny{Reflect$\times 6$}}}}
+\put(64,12){\fcolorbox{cyan}{white}{%
+          \framebox(12,4)[c]{\tiny{Sugg$\times 2$}}}}
+\put(16,16){\fcolorbox{cyan}{cyan!20}{%
+          \framebox(60,4)[c]{\footnotesize{LEARNINGS}}}}
+% Middle Set with Document Rubrics
+\put(77,0){\fcolorbox{green}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(89,0){\fcolorbox{green}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(101,0){\fcolorbox{green}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(113,0){\fcolorbox{green}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(125,0){\fcolorbox{green}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(137,0){\fcolorbox{green}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(77,12){\fcolorbox{green}{white}{%
+          \framebox(12,4)[c]{\tiny{Struct $\times .25$}}}}
+\put(89,12){\fcolorbox{green}{white}{%
+          \framebox(12,4)[c]{\tiny{Ortog$\times .25$}}}}          
+\put(101,12){\fcolorbox{green}{white}{%
+          \framebox(12,4)[c]{\tiny{Gram$\times .25$}}}}
+\put(113,12){\fcolorbox{green}{white}{%
+          \framebox(12,4)[c]{\tiny{Form $\times .25$}}}}
+\put(125,12){\fcolorbox{green}{white}{%
+          \framebox(12,4)[c]{\tiny{Abstr $\times .5$}}}}
+\put(137,12){\fcolorbox{green}{white}{%
+          \framebox(12,4)[c]{\tiny{Concl $\times .5$}}}}
+\put(77,16){\fcolorbox{green}{green!20}{%
+          \framebox(72,4)[c]{\footnotesize{DOCUMENT}}}}
+% Right Set with Penalties
+\put(150,0){\fcolorbox{red}{white}{%
+          \framebox(10,12)[c]{\footnotesize{ }}}}
+\put(160,0){\fcolorbox{red}{white}{%
+          \framebox(10,12)[c]{\footnotesize{ }}}}
+\put(170,0){\fcolorbox{red}{white}{%
+          \framebox(10,12)[c]{\footnotesize{ }}}}
+\put(150,12){\fcolorbox{red}{white}{%
+          \framebox(10,4)[c]{\tiny{Titles $\times .5$}}}}
+\put(160,12){\fcolorbox{red}{white}{%
+          \framebox(10,4)[c]{\tiny{Files $\times .5$}}}}
+\put(170,12){\fcolorbox{red}{white}{%
+          \framebox(10,4)[c]{\tiny{IDs $\times .5$}}}}
+\put(150,16){\fcolorbox{red}{red!20}{%
+          \framebox(30,4)[c]{\footnotesize{PENALTY}}}}
+\end{picture}
+}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newcommand{\arScore}%
+\newcommand{\arScore}%
+{\setlength{\unitlength}{1mm}{% % selecting unit length 
+\fontfamily{phv}\selectfont
+\begin{picture}(171.6,20) % picture environment with the size (dimensions)
+% 32 length units wide, and 15 units high.
+\setlength\fboxsep{0pt}
+% Left Set with grading Scores
+\put(0,0){\fcolorbox{gray}{gray!20}{%
+          \framebox(15,4)[l]{\scriptsize{0.2-Weak}}}}
+\put(0,4){\fcolorbox{gray}{gray!20}{%
+          \framebox(15,4)[l]{\scriptsize{0.4-Fair}}}}
+\put(0,8){\fcolorbox{gray}{gray!20}{%
+          \framebox(15,4)[l]{\scriptsize{0.6-Good}}}}
+\put(0,12){\fcolorbox{gray}{gray!20}{%
+           \framebox(15,4)[l]{\scriptsize{0.8-V.Good}}}}
+\put(0,16){\fcolorbox{gray}{gray!20}{%
+           \framebox(15,4)[l]{\scriptsize{1.0-Excel}}}}
+% Left+1 Set with Activity Rubrics
+\put(16,0){\fcolorbox{yellow}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(28,0){\fcolorbox{yellow}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}          
+\put(40,0){\fcolorbox{yellow}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(52,0){\fcolorbox{yellow}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(64,0){\fcolorbox{yellow}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(16,12){\fcolorbox{yellow}{white}{%
+          \framebox(12,4)[c]{\tiny{Intro$\times 2$}}}}
+\put(28,12){\fcolorbox{yellow}{white}{%
+          \framebox(12,4)[c]{\tiny{Object$\times 2$}}}}          
+\put(40,12){\fcolorbox{yellow}{white}{%
+          \framebox(12,4)[c]{\tiny{Plan$\times 4$}}}}
+\put(52,12){\fcolorbox{yellow}{white}{%
+          \framebox(12,4)[c]{\tiny{Exec$\times 6$}}}}
+\put(64,12){\fcolorbox{yellow}{white}{%
+          \framebox(12,4)[c]{\tiny{Result$\times 4$}}}}
+\put(16,16){\fcolorbox{yellow}{yellow!20}{%
+          \framebox(60,4)[c]{\footnotesize{ACTIVITY}}}}
+% Middle Set with Document Rubrics
+\put(77,0){\fcolorbox{green}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(89,0){\fcolorbox{green}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(101,0){\fcolorbox{green}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(113,0){\fcolorbox{green}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(125,0){\fcolorbox{green}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(137,0){\fcolorbox{green}{white}{%
+          \framebox(12,12)[c]{\footnotesize{ }}}}
+\put(77,12){\fcolorbox{green}{white}{%
+          \framebox(12,4)[c]{\tiny{Struct $\times .25$}}}}
+\put(89,12){\fcolorbox{green}{white}{%
+          \framebox(12,4)[c]{\tiny{Ortog$\times .25$}}}}          
+\put(101,12){\fcolorbox{green}{white}{%
+          \framebox(12,4)[c]{\tiny{Gram$\times .25$}}}}
+\put(113,12){\fcolorbox{green}{white}{%
+          \framebox(12,4)[c]{\tiny{Form $\times .25$}}}}
+\put(125,12){\fcolorbox{green}{white}{%
+          \framebox(12,4)[c]{\tiny{Abstr $\times .5$}}}}
+\put(137,12){\fcolorbox{green}{white}{%
+          \framebox(12,4)[c]{\tiny{Concl $\times .5$}}}}
+\put(77,16){\fcolorbox{green}{green!20}{%
+          \framebox(72,4)[c]{\footnotesize{DOCUMENT}}}}
+% Right Set with Penalties
+\put(150,0){\fcolorbox{red}{white}{%
+          \framebox(10,12)[c]{\footnotesize{ }}}}
+\put(160,0){\fcolorbox{red}{white}{%
+          \framebox(10,12)[c]{\footnotesize{ }}}}
+\put(170,0){\fcolorbox{red}{white}{%
+          \framebox(10,12)[c]{\footnotesize{ }}}}
+\put(150,12){\fcolorbox{red}{white}{%
+          \framebox(10,4)[c]{\tiny{Titles $\times .5$}}}}
+\put(160,12){\fcolorbox{red}{white}{%
+          \framebox(10,4)[c]{\tiny{Files $\times .5$}}}}
+\put(170,12){\fcolorbox{red}{white}{%
+          \framebox(10,4)[c]{\tiny{IDs $\times .5$}}}}
+\put(150,16){\fcolorbox{red}{red!20}{%
+          \framebox(30,4)[c]{\footnotesize{PENALTY}}}}
+\end{picture}
+}}
+
+% DEFINE COMMAND FOR: Printing Scoring Table Type
+\newcommand\BackgroundPic{%
+\put(-15,12){%
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\ifthenelse{\equal{\ReportType}{activity}}{\arScore}{\lrScore}}}}
+% Printing the Scoring Table
+\AddToShipoutPicture*{\BackgroundPic}
+
+% Print Vertical Identifications on even and odd pages
+\AddEverypageHook{%
+  \ifthenelse{\isodd{\value{page}}}%
+  {\backgroundsetup{
+    angle=90,
+    position={-0.1\textwidth,-1.055\textheight},
+    contents={\tiny{PP-2015 V1.4}}
+    }% Odd Pages
+  }%
+  {\backgroundsetup{
+    angle=90,
+    position={0.97\textwidth,-1.05\textheight},%
+    contents={\ifthenelse{\equal{\ReportType}{activity}}{%
+              \tiny{\tlangRepActivity}}{\tiny{\tlangRepLearning}}}
+    }% Even Pages
+  }%
+  \BgMaterial}
