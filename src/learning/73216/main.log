@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.25)  25 JUN 2016 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.22)  25 JUN 2016 22:57
 entering extended mode
 **./main.tex
 (main.tex
@@ -16,7 +16,7 @@ Document Class: PPIEEEtran 2012/12/27 V1.8 by Michael Shell and Rui Cruz
 -- Using IEEE Computer Society mode.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 368.
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 -- Using 210mm x 297mm (a4) paper.
@@ -87,45 +87,45 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24> not available
 \c@IEEEbiography=\count91
 \@IEEEtranrubishbin=\box26
 ) (PP_Report_Preamble.tex
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/04/23 3.9r The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-portuges\portuges.ldf"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-portuges\portuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count92
 \U@D=\dimen117
 )
 Package babel Info: Making " an active character on input line 145.
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
 Language: english 2012/08/20 v3.3p English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -362,7 +362,7 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -403,7 +403,7 @@ File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -427,24 +427,24 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\iflang.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\iflang.sty"
 Package: iflang 2016/05/16 v1.6 Checks for the current language (HO)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -454,14 +454,14 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )
 Package iflang Info: Naming convention for patterns: babel.
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\acronym\acronym.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\acronym\acronym.sty"
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty"
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write3
 \integerpart=\count93
 \decimalpart=\count94
@@ -470,54 +470,54 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 \AC@clearlist=\toks17
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 96.
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count95
 ))
 \Gin@req@height=\dimen118
 \Gin@req@width=\dimen119
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/03/10 v2.15b AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen120
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen121
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count96
@@ -558,10 +558,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@ALC@unique=\count108
@@ -571,7 +571,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \ALC@tlm=\skip47
 \algorithmicindent=\skip48
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen129
 \extrarowheight=\dimen130
@@ -579,10 +579,10 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip49
 \backup@length=\skip50
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen131
@@ -609,7 +609,7 @@ Package caption Info: Unknown document class (or package),
 \sf@top=\skip54
 \sf@bottom=\skip55
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
 Package: fixltx2e 2015/06/22 v2.0b fixes to LaTeX (obsolete)
 
 
@@ -617,20 +617,20 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (fixltx2e)                All fixes are now in the LaTeX kernel.
 (fixltx2e)                See the latexrelease package for details.
 
-) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+) ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
 Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -644,52 +644,52 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\background\background.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\background\background.sty"
 Package: background 2014/03/04 v2.1 background material
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
 \XKV@toks=\toks25
 \XKV@tempa@toks=\toks26
 )
 \XKV@depth=\count119
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
 x"
 \pgfutil@everybye=\toks27
 \pgfutil@tempdima=\dimen139
 \pgfutil@tempdimb=\dimen140
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-li
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-li
 sts.tex"))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
 "
 \pgfutil@abb=\box29
- ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+ ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
- ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+ ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
 "
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
- ("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+ ("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
 "
 \pgfkeys@pathtoks=\toks28
 \pgfkeys@temptoks=\toks29
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
 ode.tex"
 \pgfkeys@tmptoks=\toks30
 ))
@@ -711,36 +711,36 @@ ode.tex"
 \t@pgf@tokb=\toks32
 \t@pgf@tokc=\toks33
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.d
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.d
 ef"
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-p
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-p
 df.def"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
 code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count124
 \pgfsyssoftpath@bigbuffer@items=\count125
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
 code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
 "
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
- ("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+ ("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
 "
 \pgfmath@dimen=\dimen149
 \pgfmath@count=\count126
@@ -749,28 +749,28 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks35
 \pgfmath@stack@operation=\toks36
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
 tex"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic
 .code.tex")
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigo
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigo
 nometric.code.tex")
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.rando
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.rando
 m.code.tex")
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.compa
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.compa
 rison.code.tex")
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.
 code.tex")
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round
 .code.tex")
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.
 code.tex")
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integ
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integ
 erarithmetics.code.tex")))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count127
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
 de.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen150
@@ -788,19 +788,19 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen162
 \pgf@zy=\dimen163
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconst
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconst
 ruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen164
 \pgf@path@lasty=\dimen165
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage
 .code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen166
 \pgf@shorten@start@additional=\dimen167
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.co
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.co
 de.tex"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box31
@@ -808,100 +808,100 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgf@layerbox@main=\box33
 \pgf@picture@serial@count=\count128
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
 ate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen168
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransform
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransform
 ations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen169
 \pgf@pt@y=\dimen170
 \pgf@pt@temp=\dimen171
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.cod
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.cod
 e.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.c
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.c
 ode.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathproce
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathproce
 ssing.code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.co
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.co
 de.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen172
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.cod
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.cod
 e.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen173
 \pgf@sys@shading@range@num=\count129
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
 e.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.
 code.tex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box34
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.co
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.co
 de.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretranspare
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretranspare
 ncy.code.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.
 code.tex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.cod
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.cod
 e.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box35
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.
 tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
 -0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen174
 \pgf@nodesepend=\dimen175
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
 -1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-)) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+)) ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
 \pgffor@iter=\dimen176
 \pgffor@skip=\dimen177
 \pgffor@stack=\toks37
 \pgffor@toks=\toks38
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.cod
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.cod
 e.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothan
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothan
 dlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count130
@@ -922,7 +922,7 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count133
 \tikz@fig@count=\count134
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.cod
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.cod
 e.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count135
@@ -931,14 +931,14 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count138
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
 s\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\everypage\everypage.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\everypage\everypage.sty"
 Package: everypage 2007/06/20 1.1 Hooks to run on every page
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks39
 \AP@partial=\box40
@@ -958,7 +958,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
- ("D:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("E:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count139
 \scratchdimen=\dimen185
@@ -971,22 +971,22 @@ LaTeX Font Info:    ... okay on input line 24.
 \MPnumerator=\count143
 \makeMPintoPDFobject=\count144
 \everyMPtoPDFconversion=\toks41
-) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+) ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -1005,7 +1005,7 @@ Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros (PP_Report_Cover.tex)
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 47.
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14> not available
@@ -1021,7 +1021,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 47.
 LaTeX Font Info:    Try loading font information for U+pzd on input line 47.
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1030,12 +1030,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 47.
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-\OT1/ppl/m/it/9 E-mail: nuno.g.sousa@tecnico.ulisboa.pt, In-sti-tuto Su-pe-rior
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 47--47
 
@@ -1094,25 +1088,25 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
  <./nuno.png>] (main.aux) ) ) 
 Here is how much of TeX's memory you used:
  15645 strings out of 493335
- 297341 string characters out of 3136680
+ 297341 string characters out of 3136677
  379999 words of memory out of 3000000
  18802 multiletter control sequences out of 15000+200000
  48712 words of font info for 98 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,20n,56p,888b,713s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
-/fontname/8r.enc}<D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi6.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr6.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y6.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb
-><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><D:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><D:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/urw/palatino/uplri8a.pfb><D:/Program Files (x86)/MiKTeX 2.9/fo
+{E:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
+/fontname/8r.enc}<E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi6.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr6.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y6.pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb
+><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><E:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><E:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><E:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><E:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/urw/palatino/uplri8a.pfb><E:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (3 pages, 352233 bytes).
+Output written on main.pdf (3 pages, 353357 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
